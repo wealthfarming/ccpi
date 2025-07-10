@@ -8,8 +8,9 @@ import sharp from 'sharp'
 import { Users } from './collections/Users'
 import { Media } from './collections/Media'
 import Contact from './collections/Contact'
-import { PostsCategories } from './collections/PostsCategories'
-import { Posts } from './collections/Posts'
+import { NewsCategories } from './collections/NewsCategories'
+import { News } from './collections/News'
+import MainMenu from './global-configs/main-menu'
 // import { s3Storage } from '@payloadcms/storage-s3'
 
 const filename = fileURLToPath(import.meta.url)
@@ -57,7 +58,8 @@ export default buildConfig({
     defaultLocale: 'en',
     fallback: true,
   },
-  collections: [Users, Media, Contact, PostsCategories, Posts],
+  collections: [Users, Media, Contact, NewsCategories, News],
+  globals: [MainMenu],
   editor: lexicalEditor(),
   secret: process.env.NEXT_PUBLIC_PAYLOAD_SECRET || '',
   typescript: {

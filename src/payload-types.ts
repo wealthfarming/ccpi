@@ -14,8 +14,8 @@ export interface Config {
     users: User;
     media: Media;
     contact: Contact;
-    'posts-categories': PostsCategory;
-    posts: Post;
+    'news-categories': NewsCategory;
+    news: News;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
     'payload-migrations': PayloadMigration;
@@ -24,8 +24,8 @@ export interface Config {
     users: UsersSelect<false> | UsersSelect<true>;
     media: MediaSelect<false> | MediaSelect<true>;
     contact: ContactSelect<false> | ContactSelect<true>;
-    'posts-categories': PostsCategoriesSelect<false> | PostsCategoriesSelect<true>;
-    posts: PostsSelect<false> | PostsSelect<true>;
+    'news-categories': NewsCategoriesSelect<false> | NewsCategoriesSelect<true>;
+    news: NewsSelect<false> | NewsSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
     'payload-migrations': PayloadMigrationsSelect<false> | PayloadMigrationsSelect<true>;
@@ -33,8 +33,12 @@ export interface Config {
   db: {
     defaultIDType: string;
   };
-  globals: {};
-  globalsSelect?: {};
+  globals: {
+    'main-menu': MainMenu;
+  };
+  globalsSelect?: {
+    'main-menu': MainMenuSelect<false> | MainMenuSelect<true>;
+  };
   locale: 'en' | 'vi';
   user: User & {
     collection: 'users';
@@ -110,9 +114,9 @@ export interface Contact {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "posts-categories".
+ * via the `definition` "news-categories".
  */
-export interface PostsCategory {
+export interface NewsCategory {
   id: string;
   title: string;
   description?: {
@@ -135,13 +139,13 @@ export interface PostsCategory {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "posts".
+ * via the `definition` "news".
  */
-export interface Post {
+export interface News {
   id: string;
   title: string;
   slug?: string | null;
-  category: string | PostsCategory;
+  category: string | NewsCategory;
   description?: {
     root: {
       type: string;
@@ -181,12 +185,12 @@ export interface PayloadLockedDocument {
         value: string | Contact;
       } | null)
     | ({
-        relationTo: 'posts-categories';
-        value: string | PostsCategory;
+        relationTo: 'news-categories';
+        value: string | NewsCategory;
       } | null)
     | ({
-        relationTo: 'posts';
-        value: string | Post;
+        relationTo: 'news';
+        value: string | News;
       } | null);
   globalSlug?: string | null;
   user: {
@@ -274,9 +278,9 @@ export interface ContactSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "posts-categories_select".
+ * via the `definition` "news-categories_select".
  */
-export interface PostsCategoriesSelect<T extends boolean = true> {
+export interface NewsCategoriesSelect<T extends boolean = true> {
   title?: T;
   description?: T;
   updatedAt?: T;
@@ -284,9 +288,9 @@ export interface PostsCategoriesSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "posts_select".
+ * via the `definition` "news_select".
  */
-export interface PostsSelect<T extends boolean = true> {
+export interface NewsSelect<T extends boolean = true> {
   title?: T;
   slug?: T;
   category?: T;
@@ -326,6 +330,70 @@ export interface PayloadMigrationsSelect<T extends boolean = true> {
   batch?: T;
   updatedAt?: T;
   createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "main-menu".
+ */
+export interface MainMenu {
+  id: string;
+  menu_items?:
+    | {
+        title: string;
+        url?: string | null;
+        children?:
+          | {
+              title: string;
+              url?: string | null;
+              open_in_new_tab?: boolean | null;
+              children?:
+                | {
+                    title: string;
+                    url?: string | null;
+                    open_in_new_tab?: boolean | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+      }[]
+    | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "main-menu_select".
+ */
+export interface MainMenuSelect<T extends boolean = true> {
+  menu_items?:
+    | T
+    | {
+        title?: T;
+        url?: T;
+        children?:
+          | T
+          | {
+              title?: T;
+              url?: T;
+              open_in_new_tab?: T;
+              children?:
+                | T
+                | {
+                    title?: T;
+                    url?: T;
+                    open_in_new_tab?: T;
+                    id?: T;
+                  };
+              id?: T;
+            };
+        id?: T;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

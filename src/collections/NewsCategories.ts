@@ -1,7 +1,7 @@
 import type { CollectionConfig } from 'payload'
 
-export const PostsCategories: CollectionConfig = {
-  slug: 'posts-categories',
+export const NewsCategories: CollectionConfig = {
+  slug: 'news-categories',
   access: {
     read: () => true,
   },
@@ -11,14 +11,14 @@ export const PostsCategories: CollectionConfig = {
   fields: [
     {
       name: 'title',
-      label: 'Post Category Title',
+      label: 'New Category Title',
       type: 'text',
       localized: true,
       required: true,
     },
     {
       name: 'description',
-      label: 'Post Category Description',
+      label: 'New Category Description',
       type: 'richText',
       localized: true,
     },
