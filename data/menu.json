@@ -1,0 +1,238 @@
+{
+  "menu_items": [
+    {
+      "title": { "en": "Home" },
+      "url": "/home",
+      "children": []
+    },
+    {
+      "title": { "en": "About" },
+      "url": "/about",
+      "children": [
+        {
+          "title": { "en": "Beq Holdings" },
+          "url": "/beqholdings",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Team" },
+          "url": "/team",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Projects" },
+          "url": "/projects",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Partners" },
+          "url": "/partners",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Contact us" },
+          "url": "/contact-us",
+          "open_in_new_tab": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": { "en": "Indexes Family" },
+      "url": "/",
+      "children": [
+        {
+          "title": { "en": "Vietnam VNX Indexes Family" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Indexes and Portfolios Free And Ready For Research" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Vietnam Smart Beta indexes Series" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Vietnam Provincial indexes Series" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Vietnam and International Women CEO Indexes" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Artificial Indexes indexes" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Sentiment/Fear & Greed Indexes" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "BeQ/IFRC Volatility indexes" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Crypto Currency Indexes" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Currency indexes" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Customised indexes" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": { "en": "Big Data" },
+      "url": "/",
+      "children": [
+        {
+          "title": { "en": "Data center" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Research" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Investments" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Strategies" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Education" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Society" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Web Services" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Service" },
+          "url": "/",
+          "open_in_new_tab": false,
+          "children": [
+            {
+              "title": { "en": "To schedule a direct conversation and introduction between the lender and the company (borrower)" },
+              "open_in_new_tab": false,
+              "children": []
+            },
+            {
+              "title": { "en": "Legal entity name of the borrower" },
+              "open_in_new_tab": false,
+              "children": []
+            },
+            {
+              "title": { "en": "Shareholding structure" },
+              "open_in_new_tab": false,
+              "children": []
+            },
+            {
+              "title": { "en": "Overall information on Group Company and Business activities" },
+              "open_in_new_tab": false,
+              "children": []
+            },
+            {
+              "title": { "en": "Management of the Company (the borrower)" },
+              "open_in_new_tab": false,
+              "children": []
+            },
+            {
+              "title": { "en": "Briefing the big picture strategy for the year, together with growth opportunities and challenges" },
+              "open_in_new_tab": false,
+              "children": []
+            },
+            {
+              "title": { "en": "Financial reports for the last 3 years (English perferable)" },
+              "open_in_new_tab": false,
+              "children": []
+            },
+            {
+              "title": { "en": "Borrower's expectation for Loan application: Structure, amount, terms & conditions, timings...." },
+              "open_in_new_tab": false,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": { "en": "Education" },
+      "url": "/",
+      "children": [
+        {
+          "title": { "en": "Data Science and Technology Institute (DTSI)" },
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "DSTI Professional Data Analyst Certificate" },
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "DSTI Professional Data Scientist Certificate" },
+          "open_in_new_tab": false,
+          "children": []
+        },
+        {
+          "title": { "en": "Learning to conduct and publish research in international journals" },
+          "open_in_new_tab": false,
+          "children": []
+        }
+      ]
+    }
+  ]
+}
