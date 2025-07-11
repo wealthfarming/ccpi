@@ -2,6 +2,8 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import en from "./locales/en.json";
 import vi from "./locales/vi.json";
+import fr from "./locales/fr.json";
+import de from "./locales/de.json";
 
 const savedLanguage = typeof window !== "undefined" && localStorage.getItem("language")
     ? localStorage.getItem("language")
@@ -11,6 +13,8 @@ const savedLanguage = typeof window !== "undefined" && localStorage.getItem("lan
 const resources = {
   en: { translation: en },
   vi: { translation: vi },
+  fr: { translation: fr }, 
+  de: { translation: de }, 
 };
 
 i18n
