@@ -8,6 +8,7 @@ import {
   NavigationMenuContent,
   NavigationMenuLink,
 } from '@/components/ui/navigation-menu';
+import LanguageChange from '@/components/language-button';
 
 function RenderMenuItems({ items, depth = 0 }: { items: any[]; depth?: number }) {
   return items.map((item, index) => (
@@ -63,6 +64,7 @@ export default function Home() {
           ))}
         </NavigationMenuList>
       </NavigationMenu>
+      <LanguageChange />
     </div>
   );
-}
+} 
