@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { API_URL } from '@/lib/config';
 
 export function getCustomRichTextConverters(defaultConverters: any) {
   return {
