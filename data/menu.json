@@ -158,53 +158,6 @@
           "url": "/",
           "open_in_new_tab": false,
           "children": []
-        },
-        {
-          "title": { "en": "Service" },
-          "url": "/",
-          "open_in_new_tab": false,
-          "children": [
-            {
-              "title": { "en": "To schedule a direct conversation and introduction between the lender and the company (borrower)" },
-              "open_in_new_tab": false,
-              "children": []
-            },
-            {
-              "title": { "en": "Legal entity name of the borrower" },
-              "open_in_new_tab": false,
-              "children": []
-            },
-            {
-              "title": { "en": "Shareholding structure" },
-              "open_in_new_tab": false,
-              "children": []
-            },
-            {
-              "title": { "en": "Overall information on Group Company and Business activities" },
-              "open_in_new_tab": false,
-              "children": []
-            },
-            {
-              "title": { "en": "Management of the Company (the borrower)" },
-              "open_in_new_tab": false,
-              "children": []
-            },
-            {
-              "title": { "en": "Briefing the big picture strategy for the year, together with growth opportunities and challenges" },
-              "open_in_new_tab": false,
-              "children": []
-            },
-            {
-              "title": { "en": "Financial reports for the last 3 years (English perferable)" },
-              "open_in_new_tab": false,
-              "children": []
-            },
-            {
-              "title": { "en": "Borrower's expectation for Loan application: Structure, amount, terms & conditions, timings...." },
-              "open_in_new_tab": false,
-              "children": []
-            }
-          ]
         }
       ]
     },

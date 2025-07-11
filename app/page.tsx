@@ -11,7 +11,7 @@ import {
 
 function RenderMenuItems({ items, depth = 0 }: { items: any[]; depth?: number }) {
   return items.map((item, index) => (
-    <div key={`${item.title.en}-${index}`} style={{ paddingLeft: depth * 10 }}>
+    <div key={`${item.title.en}-${index}`} className={`pl-${depth * 4}`}>
       {item.children.length > 0 ? (
         <>
           <NavigationMenuTrigger>{item.title.en}</NavigationMenuTrigger>
@@ -37,7 +37,7 @@ export default function Home() {
   const menuItems = menuData.menu_items;
 
   return (
-    <div className="home">
+    <div className="flex justify-center">
       <NavigationMenu>
         <NavigationMenuList>
           {menuItems.map((item, index) => (
