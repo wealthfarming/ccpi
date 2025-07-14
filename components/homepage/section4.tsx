@@ -14,7 +14,7 @@ const HomeSection4 = () => {
                             className="object-cover w-full h-[500px] "
                         />
                     </div>
-                    <div className="w-full z-10 p-28">
+                    <div className="w-full z-10 p-16 md:p-28">
 
                         <div className="flex flex-col items-start justify-center w-full z-10">
                             <h6 className="text-[.9rem] font-thin mb-4 capitalize">

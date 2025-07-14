@@ -2,7 +2,7 @@ import { IntersectSquareIcon, StackIcon } from "@phosphor-icons/react"
 
 const HomeSection7 = () => {
     return (
-        <section className="w-full mx-auto flex flex-col items-center justify-between py-16 px-8 ">
+        <section className="w-full mx-auto flex flex-col items-center justify-between py-8 md:py-16 px-8 ">
             <div className="flex flex-col md:flex-row lg:w-2/3 w-full gap-16">
                 <div className="flex flex-col gap-12 md:w-[40%] w-full ">
                     <div className="flex flex-col items-start justify-center w-full">

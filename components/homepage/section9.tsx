@@ -4,9 +4,9 @@ import { useState } from "react";
 
 const HomeSection9 = () => {
     return (
-        <section className="w-full mx-auto flex flex-col items-center justify-between py-16">
-            <div className="flex flex-col md:flex-row w-full gap-16 justify-end">
-                <div className="flex flex-col gap-12 md:w-[35%] w-full">
+        <section className="w-full mx-auto flex flex-col items-center justify-between py-8 md:py-16">
+            <div className="flex flex-col-reverse md:flex-row w-full gap-16 justify-end">
+                <div className="flex flex-col gap-12 md:w-[40%] w-full md:px-0 px-8">
                     <h6 className="text-[.9rem] font-thin mb-4 capitalize">
                         OUR ADVANTAGES
                     </h6>
@@ -16,7 +16,7 @@ const HomeSection9 = () => {
                     </h4>
                     <SlideContent />
                 </div>
-                <div className="flex flex-col md:w-[50%] w-full h-[500px] z-10">
+                <div className="flex flex-col md:w-[40%] w-full h-[500px] z-10">
                     <Image src="https://res.cloudinary.com/drkr1i9yz/image/upload/v1752229365/oh__img137_mdf1iy.jpg"
                         alt="Section9 Image"
                         width={700}

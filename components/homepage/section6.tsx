@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const HomeSection6 = () => {
     return (
-        <section className="w-full mx-auto flex flex-col md:flex-row items-center justify-between py-16 h-[600px]">
+        <section className="w-full mx-auto flex flex-col md:flex-row items-center justify-between py-8 md:py-16 h-[600px]">
             <div className="md:w-[60%] w-full h-[480px] relative">
                 <Image src="https://res.cloudinary.com/drkr1i9yz/image/upload/v1752202482/oh__img136_cqhfo3.jpg"
                     alt="Section6_l Image"

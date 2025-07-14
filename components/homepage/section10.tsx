@@ -1,10 +1,19 @@
 import Image from "next/image";
 const HomeSection10 = () => {
     return (
-        <section className="w-full mx-auto flex flex-col items-center justify-between py-16 bg-[#9690a214]">
-            <div className="flex flex-col md:flex-row justify-end items-center w-full">
-                <div className="flex flex-col gap-8 md:w-[60%] w-full bg-black py-32 px-8 justify-center items-end">
-                    <div className="w-2/3">
+        <section className="w-full mx-auto flex flex-col items-center justify-between py-8 md:py-16 ">
+            <div className="flex flex-col lg:flex-row-reverse justify-end items-center w-full">
+
+                <div className="flex flex-col lg:w-[40%] w-full h-[500px] z-10">
+                    <Image src="https://res.cloudinary.com/drkr1i9yz/image/upload/v1752231284/teamBeq_ben7nl.webp"
+                        alt="Section10 Image"
+                        width={700}
+                        height={500}
+                        className="object-fill w-full h-[500px]"
+                    />
+                </div>
+                <div className="flex flex-col gap-8 lg:w-[60%] w-full py-32 px-8 justify-center items-end">
+                    <div className="w-full lg:w-[75%]">
                         <div className="flex flex-col gap-2">
                             <h6 className="text-[.9rem] font-thin capitalize">
                                 OUR ADVANTAGES
@@ -19,16 +28,10 @@ const HomeSection10 = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-col md:w-[40%] w-full h-[500px] z-10">
-                    <Image src="https://res.cloudinary.com/drkr1i9yz/image/upload/v1752231284/teamBeq_ben7nl.webp"
-                        alt="Section10 Image"
-                        width={700}
-                        height={500}
-                        className="object-fill w-full h-[500px]"
-                    />
-                </div>
             </div>
         </section>
     );
 }
 export default HomeSection10;
+
+//bg-[#9690a214]

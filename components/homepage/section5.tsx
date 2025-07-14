@@ -36,8 +36,8 @@ const toppic = [
 ]
 const HomeSection5 = () => {
     return (
-        <section className="w-full mx-auto flex flex-col items-center justify-between py-16">
-            <div className="flex flex-col md:flex-row w-7/8 md:w-6/8 mx-auto h-[500px] gap-16">
+        <section className="w-full mx-auto flex flex-col items-center justify-between py-8 md:py-16">
+            <div className="flex flex-col md:flex-row w-7/8 md:w-6/8 mx-auto gap-16">
                 <div className="md:w-[65%] w-full text-start items-start justify-center flex flex-col gap-8">
                     <h2 className="text-[3rem] font-bold mb-2 text-center"
                         style={{

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HomeSection1 = () => {
     return (
-        <div className="flex flex-row items-center justify-center w-full md:w-2/3  relative ">
+        <div className="flex flex-row items-center justify-center w-full md:w-2/3 pt-28 relative ">
             <div className="flex  flex-row  items-center relative w-full">
                 <div className="relative w-full h-[700px] flex md:flex-row overflow-visible md:overflow-hidden">
                     <Image src="https://res.cloudinary.com/drkr1i9yz/image/upload/v1752202271/homeS1_q4gakz.webp" alt="Logo" width={700} height={700} className="object-cover " />

@@ -3,7 +3,7 @@ import { ChatTextIcon, CirclesThreePlusIcon, SelectionAllIcon } from "@phosphor-
 
 const HomeSection3 = () => {
     return (
-        <section className="px-8 py-16 flex flex-col md:flex-row w-full max-w-[1400px] mx-auto gap-28">
+        <section className="px-8 py-8 md:py-16 flex flex-col md:flex-row w-full max-w-[1400px] mx-auto gap-28">
             <div className="md:w-5/12 w-full">
                 <h6 className="text-[.9rem] font-thin mb-4 capitalize">
                     VISION
