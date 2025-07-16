@@ -1,70 +1,34 @@
-import React from 'react';
-import menuData from '@/data/menu.json';
-import {
-  NavigationMenu,
-  NavigationMenuList,
-  NavigationMenuItem,
-  NavigationMenuTrigger,
-  NavigationMenuContent,
-  NavigationMenuLink,
-} from '@/components/ui/navigation-menu';
-import LanguageChange from '@/components/language-button';
-
-function RenderMenuItems({ items, depth = 0 }: { items: any[]; depth?: number }) {
-  return items.map((item, index) => (
-    <div key={`${item.title.en}-${index}`} className={`pl-${depth * 4}`}>
-      {item.children.length > 0 ? (
-        <>
-          <NavigationMenuTrigger>{item.title.en}</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <div className="p-2">
-              <RenderMenuItems items={item.children} depth={depth + 1} />
-            </div>
-          </NavigationMenuContent>
-        </>
-      ) : (
-        <NavigationMenuLink
-          href={item.url}
-          target={item.open_in_new_tab ? '_blank' : undefined}
-        >
-          {item.title.en}
-        </NavigationMenuLink>
-      )}
-    </div>
-  ));
-}
+// app/page.tsx
+import { ClientsSection } from "@/components/ClientsSection";
+import { ExpertiseSection } from "@/components/ExpertiseSection";
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
+import { HeroSlider } from "@/components/HeroSlider";
+import { IndexDesignProcess } from "@/components/IndexDesignProcess";
+import { IndexShowcase } from "@/components/IndexShowcase";
+import { InformationRequest } from "@/components/InformationRequest";
+import { LatestNews } from "@/components/LatestNews";
+import { ServicesSection } from "@/components/ServicesSection";
+import { SuccessStories } from "@/components/SuccessStories";
+import { FeaturedCasesSection } from "@/components/FeaturedCasesSection";
+import { LogoCarousel } from "@/components/LogoCarousel";
 
 export default function Home() {
-  const menuItems = menuData.menu_items;
-
   return (
-    <div className="flex justify-center">
-      <NavigationMenu>
-        <NavigationMenuList>
-          {menuItems.map((item, index) => (
-            <NavigationMenuItem key={`${item.title.en}-${index}`}>
-              {item.children.length > 0 ? (
-                <>
-                  <NavigationMenuTrigger>{item.title.en}</NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    <div className="p-2">
-                      <RenderMenuItems items={item.children} depth={1} />
-                    </div>
-                  </NavigationMenuContent>
-                </>
-              ) : (
-                <NavigationMenuLink
-                  href={item.url}
-                  // target={item.open_in_new_tab ? '_blank' : undefined}
-                >
-                  {item.title.en}
-                </NavigationMenuLink>
-              )}
-            </NavigationMenuItem>
-          ))}
-        </NavigationMenuList>
-      </NavigationMenu>
-      <LanguageChange />
+    <div className="min-h-screen bg-white text-gray-900">
+      <Header />
+      <HeroSlider />
+      <IndexShowcase />
+      <ClientsSection />
+      <ExpertiseSection />
+      <IndexDesignProcess />
+      <ServicesSection />
+      <FeaturedCasesSection />
+      <SuccessStories />
+      <LatestNews />
+      <InformationRequest />
+      <LogoCarousel />
+      <Footer />
     </div>
   );
-} 
+}

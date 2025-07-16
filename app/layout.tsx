@@ -1,20 +1,27 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
+import {  Montserrat, Open_Sans, Roboto, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
 import I18nProvider from "@/components/provider/i18nProvider";
+import { InterfaceProvider } from "@/components/context/interface-context";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const openSans = Open_Sans({
+  variable: "--font-open-sans",
   subsets: ["latin"],
 });
 
-const playfairDisplay = Playfair_Display({
-  variable: "--font-playfair-display",
+const roboto = Roboto({
+  variable: "--font-roboto",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
+const robotoCondensed = Roboto_Condensed({
+  variable: "--font-roboto-condensed",
   subsets: ["latin"],
   weight: ["400", "700"],
 });
@@ -30,12 +37,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+    <html lang="en" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
       <body
         
-        className={`${geistSans.variable} ${geistMono.variable} ${playfairDisplay.className} antialiased`}
+        className={`${montserrat.variable} ${openSans.variable} ${roboto.variable} ${robotoCondensed.variable} antialiased`}
       >
-        <I18nProvider>{children}</I18nProvider>
+        <InterfaceProvider>
+          <I18nProvider>{children}</I18nProvider>
+        </InterfaceProvider>
       </body>
     </html>
   );

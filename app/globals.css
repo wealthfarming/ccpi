@@ -120,3 +120,20 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Custom CSS for background images */
+@layer utilities {
+  .bg-hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+}
+
+/* Ensure background images load properly */
+[style*="background-image"] {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
