@@ -1,5 +1,5 @@
 import newsData from '@/data/news.json';
-import News from '@/components/news';
+import News from '@/components/News';
 import { notFound } from 'next/navigation';
 
 // Define the type for the news data

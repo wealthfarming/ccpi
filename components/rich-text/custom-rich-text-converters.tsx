@@ -22,7 +22,7 @@ export function getCustomRichTextConverters(defaultConverters: any) {
         ? defaultConverters.heading({ node, nodesToJSX, converters, parent, childIndex })
         : null;
     },
-    paragraph: ({ node, nodesToJSX, converters, parent, childIndex }: any) => {
+    paragraph: ({ node, nodesToJSX, converters, parent }: any) => {
       const children = nodesToJSX({ nodes: node.children, parent, converters });
       return <p className="mt-2 mb-4 text-[var(--text-primary)] leading-relaxed text-base md:text-lg">{children}</p>;
     },
@@ -31,7 +31,7 @@ export function getCustomRichTextConverters(defaultConverters: any) {
       const FORMAT_ITALIC = 1 << 1;
       const FORMAT_CODE = 1 << 4;
 
-      let text = node.text;
+      const text = node.text;
 
       let element: React.ReactNode = text;
 
