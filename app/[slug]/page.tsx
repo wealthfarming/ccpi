@@ -13,6 +13,7 @@ interface Post {
     createdAt: string;
     updatedAt: string;
   };
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   description: any; // Use any for complex rich text structure
   image: {
     id: string;

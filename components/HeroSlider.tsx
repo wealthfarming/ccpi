@@ -91,7 +91,7 @@ export function HeroSlider() {
           className="flex transition-transform duration-600 ease-in-out h-full"
           style={{ transform: `translateX(-${currentSlide * 100}%)` }}
         >
-          {slides.map((slide, index) => (
+          {slides.map((slide) => (
             <div
               key={slide.id}
               className="min-w-full h-full flex-shrink-0 relative"

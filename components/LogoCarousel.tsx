@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 export function LogoCarousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -116,9 +117,11 @@ export function LogoCarousel() {
                       rel="noopener noreferrer"
                       className="block w-full h-full"
                     >
-                      <img
+                      <Image
                         src={logo.src}
                         alt={logo.alt}
+                        width={120}
+                        height={120}
                         className="w-full h-auto max-w-[120px] max-h-[120px] object-contain mx-auto transition-transform duration-300 hover:scale-105"
                         loading="lazy"
                       />
@@ -137,9 +140,11 @@ export function LogoCarousel() {
                       rel="noopener noreferrer"
                       className="block w-full h-full"
                     >
-                      <img
+                      <Image
                         src={logo.src}
                         alt={logo.alt}
+                        width={120}
+                        height={120}
                         className="w-full h-auto max-w-[120px] max-h-[120px] object-contain mx-auto transition-transform duration-300 hover:scale-105"
                         loading="lazy"
                       />

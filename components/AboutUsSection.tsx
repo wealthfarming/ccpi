@@ -22,7 +22,7 @@ const AboutUsSection: React.FC = () => {
           </div>
           <div>
             <p className="text-lg text-gray-700">
-              Leveraging 40+ years of data mastery, we empower clients to navigate risk and return, building stronger portfolios through our research-driven solutions. At CCPI, we're dedicated to transparency in financial markets and using innovation to fuel economic prosperity worldwide. (Highlights data expertise and global impact)
+              Leveraging 40+ years of data mastery, we empower clients to navigate risk and return, building stronger portfolios through our research-driven solutions. At CCPI, we&apos;re dedicated to transparency in financial markets and using innovation to fuel economic prosperity worldwide. (Highlights data expertise and global impact)
             </p>
           </div>
         </div>
