@@ -69,7 +69,7 @@ export function ClientsSection() {
                   letterSpacing: "0px" 
                 }}
               >
-                With groundbreaking research across diverse areas, we empower managers to make informed decisions through the financial industry's evolution.
+                With groundbreaking research across diverse areas, we empower managers to make informed decisions through the financial industry&apos;s evolution.
               </p>
             </div>
           </div>

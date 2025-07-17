@@ -106,7 +106,7 @@ export function IndexDesignProcess() {
                   letterSpacing: "0px" 
                 }}
               >
-                How will individual components contribute to the overall index value? Popular choices include market capitalization weighting, equal weighting, and factor-based weighting. Consider the impact of weighting on the index's performance and risk profile.
+                How will individual components contribute to the overall index value? Popular choices include market capitalization weighting, equal weighting, and factor-based weighting. Consider the impact of weighting on the index&apos;s performance and risk profile.
               </p>
             </div>
           </div>
@@ -184,7 +184,7 @@ export function IndexDesignProcess() {
                   letterSpacing: "0px" 
                 }}
               >
-                Develop a robust platform that efficiently and accurately calculates your index value at regular intervals. Clearly document your calculation methodology. Sharing your index's story, provide detailed documents explaining your index construction, weighting rationale, and performance history,...
+                Develop a robust platform that efficiently and accurately calculates your index value at regular intervals. Clearly document your calculation methodology. Sharing your index&apos;s story, provide detailed documents explaining your index construction, weighting rationale, and performance history,...
               </p>
             </div>
           </div>

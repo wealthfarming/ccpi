@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { CaretUp, PaperPlaneRight, Envelope } from '@phosphor-icons/react';
+import Image from 'next/image';
 
 export function Footer() {
   const [formData, setFormData] = useState({
@@ -37,7 +38,7 @@ export function Footer() {
             <div className="lg:col-span-1">
               {/* Company Logo */}
               <div className="mb-6">
-                <img
+                <Image
                   src="https://ccpi.vn/wp-content/uploads/2023/12/CCPI-backend-nen-trang-1-300x73.png"
                   alt="CCPI Logo"
                   width={255}
@@ -157,7 +158,7 @@ export function Footer() {
                     onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#0e7a96'}
                     onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#1089af'}
                   >
-                    Robert Kiyosaki's Urgent Warning: Why the Financial Collapse of the U.S. is Inevitable
+                    Robert Kiyosaki&apos;s Urgent Warning: Why the Financial Collapse of the U.S. is Inevitable
                   </a>
                 </li>
                 <li>

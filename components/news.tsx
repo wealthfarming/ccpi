@@ -5,6 +5,7 @@ import { RichText } from '@payloadcms/richtext-lexical/react';
 import { getCustomRichTextConverters } from '@/components/rich-text/custom-rich-text-converters';
 
 interface Props {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   post: any;
 }
 
@@ -22,7 +23,8 @@ export default function News({ post }: Props) {
     <div className="pb-[100px]">
       <RichText
         data={post.description}
-        converters={({ defaultConverters }) =>
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        converters={({ defaultConverters }: any) =>
           getCustomRichTextConverters(defaultConverters)
         }
       />

@@ -133,10 +133,10 @@ export function ServicesSection() {
               <h4 className="text-center text-xl font-bold mb-6">Investment Support & Services</h4>
               <ul className="space-y-4 text-sm leading-relaxed">
                 <li>
-                  <strong>Index licensing and replication:</strong> Utilize CCPI's indexes as benchmarks for investment products and strategies.
+                  <strong>Index licensing and replication:</strong> Utilize CCPI&apos;s indexes as benchmarks for investment products and strategies.
                 </li>
                 <li>
-                  <strong>Consulting and advisory services:</strong> Leverage CCPI's expertise for customized solutions and market insights.
+                  <strong>Consulting and advisory services:</strong> Leverage CCPI&apos;s expertise for customized solutions and market insights.
                 </li>
                 <li>
                   <strong>Educational resources and events:</strong> Stay informed with research reports, webinars, and conferences on industry trends and best practices.

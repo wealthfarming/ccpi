@@ -3,8 +3,8 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Image from "next/image";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 interface NewsItem {
@@ -99,13 +99,13 @@ export function LatestNews() {
             >
               Latest News
             </h3>
-            <a 
+            <Link 
               href="/news" 
               className="text-blue-600 hover:text-blue-800 mt-2 inline-block"
               style={{ fontSize: "14px", color: "#254099" }}
             >
               Read All News
-            </a>
+            </Link>
           </div>
           
           {/* Blue Divider */}
@@ -136,7 +136,7 @@ export function LatestNews() {
                  className="flex transition-transform duration-500 ease-in-out"
                  style={{ transform: `translateX(-${currentSlide * (100/3)}%)` }}
                >
-                 {newsItems.map((item, index) => (
+                 {newsItems.map((item) => (
                    <div key={item.id} className="w-full md:w-1/3 flex-shrink-0 px-3">
                      <Card 
                        className="overflow-hidden hover:shadow-lg transition-shadow duration-300 rounded-none h-[500px] flex flex-col p-0 border-none"

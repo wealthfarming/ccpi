@@ -1,8 +1,10 @@
 import Image from 'next/image';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function getCustomRichTextConverters(defaultConverters: any) {
   return {
     ...defaultConverters,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     heading: ({ node, nodesToJSX, converters, parent, childIndex }: any) => {
       const children = nodesToJSX({ nodes: node.children, parent, converters });
 
