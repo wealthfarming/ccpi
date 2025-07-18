@@ -27,7 +27,7 @@ export function Header() {
 
         {/* Navigation Menu */}
         <nav className="flex items-center space-x-8">
-          <Link href="https://ccpi.vn/ccpi-about-us/" className="text-white hover:text-blue-200 transition-colors font-medium">
+          <Link href="about-us/" className="text-white hover:text-blue-200 transition-colors font-medium">
             About Us
           </Link>
           
