@@ -7,7 +7,9 @@ module.exports = {
   images: {
     unoptimized: true,
   },
-
+  experimental: {
+    optimizeCss: true,
+  },
   webpack(config) {
     return config
   },

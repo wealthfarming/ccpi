@@ -27,7 +27,11 @@ jobs:
         run: echo "BASE_PATH=/$(echo $GITHUB_REPOSITORY | cut -d '/' -f 2)" >> $GITHUB_ENV
 
       - name: Build page
-        run: yarn run build && touch ./out/.nojekyll
+        run: |
+          yarn run build
+          touch ./out/.nojekyll
+          echo "Build completed successfully"
+          ls -la ./out/
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.6.0
