@@ -103,7 +103,7 @@ export function getCustomRichTextConverters(defaultConverters: any) {
       const height = value.height || 600;
 
       return (
-        <div className="my-6">
+        <div className="flex justify-center my-6">
           <Image
             src={src}
             alt={alt}

@@ -7,12 +7,12 @@ interface Post {
   id: string;
   title: string;
   slug: string;
-  category: {
+  category: Array<{
     id: string;
     title: string;
     createdAt: string;
     updatedAt: string;
-  };
+  }>;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   description: any; // Use any for complex rich text structure
   image: {

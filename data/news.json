@@ -1,56 +1,26 @@
 {
-    "id": "6853d9211e45d1f03211e361",
-    "title": "Wealth Farming Mechanism: Why You Can Earn Returns Without Monitoring the Market?",
-    "slug": "wealth-farming-mechanism-why-you-can-earn-returns-without-monitoring-the-market",
-    "category": {
-        "id": "681c177a44e2344f9eb12982",
-        "title": "Regulations & Rules of Wealth Farming",
-        "createdAt": "2025-05-08T02:31:22.332Z",
-        "updatedAt": "2025-05-12T02:34:39.242Z"
-    },
+    "id": "687c93046b54192fa598c52d",
+    "title": "Common Mistakes When Investing in NFTs – And How to Avoid Them",
+    "slug": "common-mistakes-when-investing-in-nfts-and-how-to-avoid-them",
+    "category": [
+        {
+            "id": "687c91726b54192fa598c411",
+            "title": "Invest Like billionaires",
+            "createdAt": "2025-07-20T06:49:22.101Z",
+            "updatedAt": "2025-07-20T06:49:22.101Z"
+        }
+    ],
     "description": {
         "root": {
             "children": [
                 {
                     "children": [
-                        {}
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "heading",
-                    "version": 1,
-                    "textFormat": 1,
-                    "tag": "h1"
-                },
-                {
-                    "children": [
                         {
                             "detail": 0,
                             "format": 0,
                             "mode": "normal",
                             "style": "",
-                            "text": "If you've tried:",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "· ",
+                            "text": "NFTs were once dismissed as a short-lived trend. But when applied to finance—especially in the form of digital fund certificates like ",
                             "type": "text",
                             "version": 1
                         },
@@ -59,7 +29,7 @@
                             "format": 1,
                             "mode": "normal",
                             "style": "",
-                            "text": "Stocks",
+                            "text": "NFT BEQ INDEX",
                             "type": "text",
                             "version": 1
                         },
@@ -68,676 +38,7 @@
                             "format": 0,
                             "mode": "normal",
                             "style": "",
-                            "text": ": You buy today, it crashes tomorrow. Your emotions ride the market.",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "· ",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "Crypto",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": ": Buy the dip, chase the hype – end up holding losses.",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "· ",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "Real estate",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": ": Requires huge capital, slow liquidity, legal complexities.",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "· ",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "Savings accounts",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": ": Yields barely keep up with inflation.",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "You’re not wrong. Markets are volatile.",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "type": "linebreak",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "But ",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "you don’t need to stare at charts all day to earn investment income",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": ".",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "What is Wealth Farming?",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "heading",
-                    "version": 1,
-                    "textFormat": 1,
-                    "tag": "h2"
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "Wealth Farming",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": " is a passive investment model where:",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 1,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "✅ No daily trading",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "type": "linebreak",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "✅ No technical analysis",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "type": "linebreak",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "✅ No market predictions",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "Yet, you still earn returns from real yield strategies managed by professionals.",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "⚙️ How Does Wealth Farming Work?",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "heading",
-                    "version": 1,
-                    "textFormat": 1,
-                    "tag": "h2"
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "You buy an ",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "investment NFT",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": " (like NFT NEC or NFT BEQ Index), representing a digital investment share.",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "This NFT is ",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "tokenized on blockchain",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": " – transparent, immutable, verifiable.",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "Your capital is professionally managed by BeQ Holdings through:",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "▪ Arbitrage trading between exchanges",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "▪ Audited DeFi investment funds",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "▪ Real, transparent financial operations",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "Profits are reflected in the NFT value each month",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": ", meaning the NFT you hold grows steadily in price.",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 1,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "No fixed monthly payout – instead, the NFT appreciates over time",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": ".",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "type": "linebreak",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "You can:",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 1,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "▪ Monitor growth on your personal dashboard",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "▪ Sell whenever you want",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "▪ Avoid the risks of “guaranteed” return models",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "Real-World Examples",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "heading",
-                    "version": 1,
-                    "textFormat": 1,
-                    "tag": "h2"
-                },
-                {
-                    "children": [],
-                    "direction": null,
-                    "format": "center",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [],
-                    "direction": null,
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "type": "upload",
-                    "version": 3,
-                    "format": "",
-                    "id": "6853e01b963d97e1f9555689",
-                    "fields": null,
-                    "relationTo": "media",
-                    "value": {
-                        "id": "6853e01b1e45d1f03211e8e2",
-                        "filename": "ta.png",
-                        "mimeType": "image/png",
-                        "filesize": 12443,
-                        "width": 813,
-                        "height": 112,
-                        "focalX": 50,
-                        "focalY": 50,
-                        "createdAt": "2025-06-19T10:02:03.796Z",
-                        "updatedAt": "2025-06-19T10:02:03.796Z",
-                        "url": "https://res.cloudinary.com/dvtuy0whs/image/upload/v1751855104/05_ql6756.png",
-                        "thumbnailURL": null
-                    }
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "Larger capital, cashflow-focused",
+                            "text": "—the entire game changed.",
                             "type": "text",
                             "version": 1
                         }
@@ -757,52 +58,13 @@
                             "format": 0,
                             "mode": "normal",
                             "style": "",
-                            "text": "No need to:",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "type": "linebreak",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "❌ Watch charts",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "type": "linebreak",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "❌ Set SL/TP",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "type": "linebreak",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "❌ Decode crypto trends",
+                            "text": "Yet many investors still make critical mistakes due to a lack of understanding or the wrong mindset. Below are the most common errors—and how to avoid losing money while maximizing your returns.",
                             "type": "text",
                             "version": 1
                         }
                     ],
                     "direction": "ltr",
-                    "format": "",
+                    "format": "left",
                     "indent": 0,
                     "type": "paragraph",
                     "version": 1,
@@ -810,78 +72,45 @@
                     "textStyle": ""
                 },
                 {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "Just:",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "type": "linebreak",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "✅ Buy once",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "type": "linebreak",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "✅ Monitor monthly",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "type": "linebreak",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "✅ Decide when to exit",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
+                    "type": "upload",
+                    "version": 3,
                     "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
+                    "id": "687c92e70595f66b69e39087",
+                    "fields": null,
+                    "relationTo": "media",
+                    "value": {
+                        "id": "687c91f76b54192fa598c4a0",
+                        "filename": "13-1.png",
+                        "mimeType": "image/png",
+                        "filesize": 364479,
+                        "width": 424,
+                        "height": 644,
+                        "focalX": 50,
+                        "focalY": 50,
+                        "createdAt": "2025-07-20T06:51:35.646Z",
+                        "updatedAt": "2025-07-20T06:51:35.646Z",
+                        "url": "https://res.cloudinary.com/dvtuy0whs/image/upload/v1752994754/13-1_xm1spn.png",
+                        "thumbnailURL": null
+                    }
                 },
                 {
                     "children": [
+                        {
+                            "type": "linebreak",
+                            "version": 1
+                        },
                         {
                             "detail": 0,
                             "format": 1,
                             "mode": "normal",
                             "style": "",
-                            "text": "Who Should Join Wealth Farming?",
+                            "text": "1. Buying NFTs Just Because… FOMO",
                             "type": "text",
                             "version": 1
                         }
                     ],
                     "direction": "ltr",
-                    "format": "",
+                    "format": "left",
                     "indent": 0,
                     "type": "heading",
                     "version": 1,
@@ -892,80 +121,33 @@
                     "children": [
                         {
                             "detail": 0,
-                            "format": 0,
+                            "format": 1,
                             "mode": "normal",
                             "style": "",
-                            "text": "· Busy professionals (office workers, business owners, freelancers)",
+                            "text": "The Problem:",
                             "type": "text",
                             "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
+                        },
+                        {
+                            "type": "linebreak",
+                            "version": 1
+                        },
                         {
                             "detail": 0,
                             "format": 0,
                             "mode": "normal",
                             "style": "",
-                            "text": "· New investors who want low-risk options",
+                            "text": "Many people jump into NFTs because others seem to profit, or because of hype and social pressure—without understanding what they’re actually buying.",
                             "type": "text",
                             "version": 1
                         }
                     ],
                     "direction": "ltr",
-                    "format": "",
+                    "format": "left",
                     "indent": 0,
                     "type": "paragraph",
                     "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "· Those burned by crypto or stock losses",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "· Anyone with $100–10,000 sitting idle",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
+                    "textFormat": 1,
                     "textStyle": ""
                 },
                 {
@@ -975,17 +157,648 @@
                             "format": 1,
                             "mode": "normal",
                             "style": "",
-                            "text": "Why Wealth Farming is Safer?",
+                            "text": "How to Avoid It:",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "type": "linebreak",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "Always ask:",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "type": "linebreak",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 2,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "“Does this NFT generate cash flow? Is there real-world utility? Is it transparently priced?”",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "type": "linebreak",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "For example: ",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 1,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "NFT BEQ INDEX",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": " is not just a “digital picture.” It’s a real investment certificate that can earn ",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 1,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "6.8% per month",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": ", is tradable, and is transparently managed on the blockchain.",
                             "type": "text",
                             "version": 1
                         }
                     ],
                     "direction": "ltr",
-                    "format": "",
+                    "format": "left",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 1,
+                    "textStyle": ""
+                },
+                {
+                    "children": [
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "2. Ignoring Cash Flow – Only Chasing Price Hikes",
+                            "type": "text",
+                            "version": 1
+                        }
+                    ],
+                    "direction": "ltr",
+                    "format": "left",
                     "indent": 0,
                     "type": "heading",
                     "version": 1,
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "detail": 0,
+                            "format": 1,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "The Problem:",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "type": "linebreak",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "Many NFTs can only bring profit if resold at a higher price—meaning you’re relying on someone else paying more (aka the “greater fool” model).",
+                            "type": "text",
+                            "version": 1
+                        }
+                    ],
+                    "direction": "ltr",
+                    "format": "left",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
                     "textFormat": 1,
+                    "textStyle": ""
+                },
+                {
+                    "children": [
+                        {
+                            "detail": 0,
+                            "format": 1,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "How to Avoid It:",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "type": "linebreak",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "Choose NFTs that provide ",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 1,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "real cash flow",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "—via staking, lending, or profit sharing.",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "type": "linebreak",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "→ For instance, ",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 1,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "NFT BEQ INDEX",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": " distributes ",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 1,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "60% of investment profits quarterly",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": " to holders. No need to flip or “trade” to earn.",
+                            "type": "text",
+                            "version": 1
+                        }
+                    ],
+                    "direction": "ltr",
+                    "format": "left",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 1,
+                    "textStyle": ""
+                },
+                {
+                    "children": [
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "3. Not Checking Project Transparency & Legal Validity",
+                            "type": "text",
+                            "version": 1
+                        }
+                    ],
+                    "direction": "ltr",
+                    "format": "left",
+                    "indent": 0,
+                    "type": "heading",
+                    "version": 1,
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "detail": 0,
+                            "format": 1,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "The Problem:",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "type": "linebreak",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "Some NFT projects lack clear documentation, team transparency, legal compliance, or blockchain traceability.",
+                            "type": "text",
+                            "version": 1
+                        }
+                    ],
+                    "direction": "ltr",
+                    "format": "left",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 1,
+                    "textStyle": ""
+                },
+                {
+                    "children": [
+                        {
+                            "detail": 0,
+                            "format": 1,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "How to Avoid It:",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "type": "linebreak",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "Only invest in projects that have:",
+                            "type": "text",
+                            "version": 1
+                        }
+                    ],
+                    "direction": "ltr",
+                    "format": "left",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 1,
+                    "textStyle": ""
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "detail": 0,
+                                    "format": 0,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "A clear whitepaper",
+                                    "type": "text",
+                                    "version": 1
+                                }
+                            ],
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "type": "listitem",
+                            "version": 1,
+                            "value": 1
+                        },
+                        {
+                            "children": [
+                                {
+                                    "detail": 0,
+                                    "format": 0,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "Real applications (DeFi, finance, investment…)",
+                                    "type": "text",
+                                    "version": 1
+                                }
+                            ],
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "type": "listitem",
+                            "version": 1,
+                            "value": 2
+                        },
+                        {
+                            "children": [
+                                {
+                                    "detail": 0,
+                                    "format": 0,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "Trading availability on trusted NFT platforms",
+                                    "type": "text",
+                                    "version": 1
+                                }
+                            ],
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "type": "listitem",
+                            "version": 1,
+                            "value": 3
+                        },
+                        {
+                            "children": [
+                                {
+                                    "detail": 0,
+                                    "format": 0,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "Transparent asset & profit tracking on the blockchain",
+                                    "type": "text",
+                                    "version": 1
+                                }
+                            ],
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "type": "listitem",
+                            "version": 1,
+                            "value": 4
+                        }
+                    ],
+                    "direction": "ltr",
+                    "format": "left",
+                    "indent": 0,
+                    "type": "list",
+                    "version": 1,
+                    "listType": "bullet",
+                    "start": 1,
+                    "tag": "ul"
+                },
+                {
+                    "children": [
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "4. Ignoring Liquidity & Redemption Terms",
+                            "type": "text",
+                            "version": 1
+                        }
+                    ],
+                    "direction": "ltr",
+                    "format": "left",
+                    "indent": 0,
+                    "type": "heading",
+                    "version": 1,
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "detail": 0,
+                            "format": 1,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "The Problem:",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "type": "linebreak",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "Many investors don’t read the fine print:",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "type": "linebreak",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "“Can I redeem this NFT? Can I trade it? Or do I need to wait for someone to buy it?”",
+                            "type": "text",
+                            "version": 1
+                        }
+                    ],
+                    "direction": "ltr",
+                    "format": "left",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 1,
+                    "textStyle": ""
+                },
+                {
+                    "children": [
+                        {
+                            "detail": 0,
+                            "format": 1,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "How to Avoid It:",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "type": "linebreak",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "→ With ",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 1,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "NFT BEQ INDEX",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": ", you can:",
+                            "type": "text",
+                            "version": 1
+                        }
+                    ],
+                    "direction": "ltr",
+                    "format": "left",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 1,
+                    "textStyle": ""
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "detail": 0,
+                                    "format": 0,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "Trade 24/7 on ",
+                                    "type": "text",
+                                    "version": 1
+                                },
+                                {
+                                    "detail": 0,
+                                    "format": 1,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "BeQ Exchange",
+                                    "type": "text",
+                                    "version": 1
+                                }
+                            ],
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "type": "listitem",
+                            "version": 1,
+                            "value": 1
+                        },
+                        {
+                            "children": [
+                                {
+                                    "detail": 0,
+                                    "format": 0,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "Withdraw profits periodically",
+                                    "type": "text",
+                                    "version": 1
+                                }
+                            ],
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "type": "listitem",
+                            "version": 1,
+                            "value": 2
+                        },
+                        {
+                            "children": [
+                                {
+                                    "detail": 0,
+                                    "format": 0,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "Use the NFT as ",
+                                    "type": "text",
+                                    "version": 1
+                                },
+                                {
+                                    "detail": 0,
+                                    "format": 1,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "collateral",
+                                    "type": "text",
+                                    "version": 1
+                                },
+                                {
+                                    "detail": 0,
+                                    "format": 0,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "to borrow USDT/USDC if needed",
+                                    "type": "text",
+                                    "version": 1
+                                }
+                            ],
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "type": "listitem",
+                            "version": 1,
+                            "value": 3
+                        }
+                    ],
+                    "direction": "ltr",
+                    "format": "left",
+                    "indent": 0,
+                    "type": "list",
+                    "version": 1,
+                    "listType": "bullet",
+                    "start": 1,
+                    "tag": "ul"
+                },
+                {
+                    "children": [
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "Final Note: Invest in NFTs Like a Financial Professional – Not a Collector",
+                            "type": "text",
+                            "version": 1
+                        }
+                    ],
+                    "direction": "ltr",
+                    "format": "left",
+                    "indent": 0,
+                    "type": "heading",
+                    "version": 1,
                     "tag": "h2"
                 },
                 {
@@ -995,31 +808,13 @@
                             "format": 0,
                             "mode": "normal",
                             "style": "",
-                            "text": "· ",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "No fixed ROI promises",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": " → Avoids ponzi risk",
+                            "text": "NFTs are more than just tech—they’re financial tools. But to unlock their true potential, choose the right kind of NFT:",
                             "type": "text",
                             "version": 1
                         }
                     ],
                     "direction": "ltr",
-                    "format": "",
+                    "format": "left",
                     "indent": 0,
                     "type": "paragraph",
                     "version": 1,
@@ -1029,40 +824,107 @@
                 {
                     "children": [
                         {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "· ",
-                            "type": "text",
-                            "version": 1
+                            "children": [
+                                {
+                                    "detail": 0,
+                                    "format": 0,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "One that ",
+                                    "type": "text",
+                                    "version": 1
+                                },
+                                {
+                                    "detail": 0,
+                                    "format": 1,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "generates cash flow",
+                                    "type": "text",
+                                    "version": 1
+                                }
+                            ],
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "type": "listitem",
+                            "version": 1,
+                            "value": 1
                         },
                         {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "No “double overnight” claims",
-                            "type": "text",
-                            "version": 1
+                            "children": [
+                                {
+                                    "detail": 0,
+                                    "format": 0,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "One with ",
+                                    "type": "text",
+                                    "version": 1
+                                },
+                                {
+                                    "detail": 0,
+                                    "format": 1,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "real-world applications",
+                                    "type": "text",
+                                    "version": 1
+                                }
+                            ],
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "type": "listitem",
+                            "version": 1,
+                            "value": 2
                         },
                         {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": " → Sustainable growth",
-                            "type": "text",
-                            "version": 1
+                            "children": [
+                                {
+                                    "detail": 0,
+                                    "format": 0,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "One designed for ",
+                                    "type": "text",
+                                    "version": 1
+                                },
+                                {
+                                    "detail": 0,
+                                    "format": 1,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "long-term growth",
+                                    "type": "text",
+                                    "version": 1
+                                },
+                                {
+                                    "detail": 0,
+                                    "format": 0,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": ", not short-term hype",
+                                    "type": "text",
+                                    "version": 1
+                                }
+                            ],
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "type": "listitem",
+                            "version": 1,
+                            "value": 3
                         }
                     ],
                     "direction": "ltr",
-                    "format": "",
+                    "format": "left",
                     "indent": 0,
-                    "type": "paragraph",
+                    "type": "list",
                     "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
+                    "listType": "bullet",
+                    "start": 1,
+                    "tag": "ul"
                 },
                 {
                     "children": [
@@ -1071,75 +933,16 @@
                             "format": 0,
                             "mode": "normal",
                             "style": "",
-                            "text": "· ",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "No referral schemes",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": " → Not MLM",
+                            "text": "Ready to Invest Smarter in NFTs?",
                             "type": "text",
                             "version": 1
                         }
                     ],
                     "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "Every dollar is invested in verifiable, real strategies – with monthly growth history published on-chain.",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "Take Action Now – Before the Market Gets Saturated",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
+                    "format": "left",
                     "indent": 0,
                     "type": "heading",
                     "version": 1,
-                    "textFormat": 1,
                     "tag": "h2"
                 },
                 {
@@ -1149,7 +952,81 @@
                             "format": 0,
                             "mode": "normal",
                             "style": "",
-                            "text": "✅ Open a free account: ",
+                            "text": "Discover ",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 1,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "NFT BEQ INDEX",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": " – a digital fund certificate delivering ",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 1,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "6.8% monthly returns",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": " and ",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 1,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "24/7 asset control",
+                            "type": "text",
+                            "version": 1
+                        },
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": ".",
+                            "type": "text",
+                            "version": 1
+                        }
+                    ],
+                    "direction": "ltr",
+                    "format": "left",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                },
+                {
+                    "children": [
+                        {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "Learn more & buy NFT at ",
                             "type": "text",
                             "version": 1
                         },
@@ -1160,7 +1037,7 @@
                                     "format": 8,
                                     "mode": "normal",
                                     "style": "",
-                                    "text": "https://wealthfarming.app",
+                                    "text": "WealthFarming.io",
                                     "type": "text",
                                     "version": 1
                                 }
@@ -1175,78 +1052,13 @@
                                 "doc": null,
                                 "linkType": "custom",
                                 "newTab": false,
-                                "url": "https://wealthfarming.app"
+                                "url": "https://wealthfarming.io/"
                             },
-                            "id": "6853dab8c700407afa121498"
-                        },
-                        {
-                            "type": "linebreak",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "✅ Learn about NFT NEC & NFT Index: ",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "children": [
-                                {
-                                    "detail": 0,
-                                    "format": 8,
-                                    "mode": "normal",
-                                    "style": "",
-                                    "text": "https://wealthfarming.io",
-                                    "type": "text",
-                                    "version": 1
-                                }
-                            ],
-                            "direction": "ltr",
-                            "format": "",
-                            "indent": 0,
-                            "type": "link",
-                            "version": 3,
-                            "textFormat": 8,
-                            "fields": {
-                                "doc": null,
-                                "linkType": "custom",
-                                "newTab": false,
-                                "url": "https://wealthfarming.io"
-                            },
-                            "id": "6853dab8c700407afa121499"
-                        },
-                        {
-                            "type": "linebreak",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "✅ Get 1-on-1 support from Wealth Farming",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "type": "linebreak",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 0,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "✅ Start with just $100 – and grow every month",
-                            "type": "text",
-                            "version": 1
+                            "id": "687c928f0595f66b69e39085"
                         }
                     ],
                     "direction": "ltr",
-                    "format": "",
+                    "format": "left",
                     "indent": 0,
                     "type": "paragraph",
                     "version": 1,
@@ -1256,22 +1068,74 @@
                 {
                     "children": [
                         {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "Final Thoughts:",
-                            "type": "text",
-                            "version": 1
+                            "children": [
+                                {
+                                    "detail": 0,
+                                    "format": 0,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "Hotline: +84 34 255 7068",
+                                    "type": "text",
+                                    "version": 1
+                                }
+                            ],
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "type": "listitem",
+                            "version": 1,
+                            "value": 1
+                        },
+                        {
+                            "children": [
+                                {
+                                    "detail": 0,
+                                    "format": 0,
+                                    "mode": "normal",
+                                    "style": "",
+                                    "text": "Email: ",
+                                    "type": "text",
+                                    "version": 1
+                                },
+                                {
+                                    "type": "autolink",
+                                    "children": [
+                                        {
+                                            "detail": 0,
+                                            "format": 0,
+                                            "mode": "normal",
+                                            "style": "",
+                                            "text": "contact@beqholdings.com",
+                                            "type": "text",
+                                            "version": 1
+                                        }
+                                    ],
+                                    "direction": "ltr",
+                                    "fields": {
+                                        "linkType": "custom",
+                                        "url": "mailto:contact@beqholdings.com"
+                                    },
+                                    "format": "",
+                                    "indent": 0,
+                                    "version": 2
+                                }
+                            ],
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "type": "listitem",
+                            "version": 1,
+                            "value": 2
                         }
                     ],
                     "direction": "ltr",
-                    "format": "",
+                    "format": "left",
                     "indent": 0,
-                    "type": "heading",
+                    "type": "list",
                     "version": 1,
-                    "textFormat": 1,
-                    "tag": "h2"
+                    "listType": "bullet",
+                    "start": 1,
+                    "tag": "ul"
                 },
                 {
                     "children": [
@@ -1280,12 +1144,8 @@
                             "format": 1,
                             "mode": "normal",
                             "style": "",
-                            "text": "You don’t need to get rich overnight.",
+                            "text": "Apply to join BeQ",
                             "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "type": "linebreak",
                             "version": 1
                         },
                         {
@@ -1293,46 +1153,13 @@
                             "format": 0,
                             "mode": "normal",
                             "style": "",
-                            "text": "You just need a channel that protects and grows your money – steadily, every month.",
-                            "type": "text",
-                            "version": 1
-                        },
-                        {
-                            "type": "linebreak",
-                            "version": 1
-                        },
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "Wealth Farming is that path.",
+                            "text": " — if you’re ready to stop working for money and start building the future of money.",
                             "type": "text",
                             "version": 1
                         }
                     ],
                     "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "type": "paragraph",
-                    "version": 1,
-                    "textFormat": 1,
-                    "textStyle": ""
-                },
-                {
-                    "children": [
-                        {
-                            "detail": 0,
-                            "format": 1,
-                            "mode": "normal",
-                            "style": "",
-                            "text": "#WealthFarming, #NoTradingNeeded, #NFTNEC, #NFTIndex, #DigitalAssets, #PassiveIncome, #FinancialFreedom, #BlockchainTransparency,",
-                            "type": "text",
-                            "version": 1
-                        }
-                    ],
-                    "direction": "ltr",
-                    "format": "",
+                    "format": "left",
                     "indent": 0,
                     "type": "paragraph",
                     "version": 1,
@@ -1344,23 +1171,24 @@
             "format": "",
             "indent": 0,
             "type": "root",
-            "version": 1
+            "version": 1,
+            "textFormat": 1
         }
     },
+    "createdAt": "2025-07-20T06:56:04.634Z",
+    "updatedAt": "2025-07-20T07:07:30.188Z",
     "image": {
-        "id": "6853d4e41e45d1f03211e2fa",
-        "filename": "BAI 7.png",
+        "id": "687c95a96b54192fa598c5ab",
+        "filename": "dollar-2.png",
         "mimeType": "image/png",
-        "filesize": 1657287,
-        "width": 1024,
-        "height": 1536,
+        "filesize": 4376321,
+        "width": 1920,
+        "height": 1080,
         "focalX": 50,
         "focalY": 50,
-        "createdAt": "2025-06-19T09:14:12.711Z",
-        "updatedAt": "2025-06-19T09:14:12.711Z",
-        "url": "/api/media/file/BAI 7.png",
+        "createdAt": "2025-07-20T07:07:21.182Z",
+        "updatedAt": "2025-07-20T07:07:21.182Z",
+        "url": "https://res.cloudinary.com/dvtuy0whs/image/upload/v1752995197/dollar-2_jznbsg.png",
         "thumbnailURL": null
-    },
-    "createdAt": "2025-06-19T09:32:17.173Z",
-    "updatedAt": "2025-06-20T08:51:11.055Z"
+    }
 }
