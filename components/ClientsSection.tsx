@@ -7,7 +7,7 @@ export function ClientsSection() {
     <section className="py-12" style={{ margin: "30px 0px 0px 0px" }}>
       <div className="container mx-auto">
         {/* Title */}
-        <div className="text-center mb-6" style={{ paddingBottom: "27px" }}>
+        <div className="text-center" style={{ paddingBottom: "27px" }}>
           <h3 
             className="font-semibold text-center" 
             style={{ 
@@ -23,16 +23,14 @@ export function ClientsSection() {
         </div>
 
         {/* Divider */}
-        <div className="flex justify-center" style={{ marginBottom: "25px" }}>
-          <div style={{ maxWidth: "54px" }}>
-            <div 
-              className="border-t-4" 
-              style={{ 
-                borderColor: "#254099", 
-                borderWidth: "4px" 
-              }}
-            ></div>
-          </div>
+        <div className="flex justify-center" style={{ marginBottom: "55px" }}>
+          <div 
+            style={{ 
+              width: "54px", 
+              height: "4px", 
+              backgroundColor: "#254099" 
+            }}
+          ></div>
         </div>
 
         {/* Client Cards Grid */}

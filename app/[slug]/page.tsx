@@ -7,12 +7,12 @@ interface Post {
   id: string;
   title: string;
   slug: string;
-  category: {
+  category: Array<{
     id: string;
     title: string;
     createdAt: string;
     updatedAt: string;
-  };
+  }>;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   description: any; // Use any for complex rich text structure
   image: {
@@ -33,24 +33,24 @@ interface Post {
   updatedAt: string;
 }
 
+// Explicitly type newsData as an array of Post
+const typedNewsData: Post[] = newsData;
+
 // Export generateStaticParams for static site generation
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
-  // Handle both single object and array cases
-  if (Array.isArray(newsData)) {
-    return newsData.map((post: Post) => ({
-      slug: post.slug,
-    }));
-  }
-  // Single object case
-  return [{ slug: newsData.slug }];
+  return typedNewsData.map((post: Post) => ({
+    slug: post.slug,
+  }));
 }
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
 
-  // Type newsData as Post and check slug
-  const post: Post = newsData;
-  if (post.slug !== slug) {
+  // Find the post with the matching slug
+  const post = typedNewsData.find((p: Post) => p.slug === slug);
+
+  // If no post is found, return 404
+  if (!post) {
     notFound();
   }
 
