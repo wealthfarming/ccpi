@@ -13,11 +13,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - 
-        name: Checkout 🛎️
+      - name: Checkout
         uses: actions/checkout@v4.1.7
-      - 
-        name: Setup Node
+
+      - name: Setup Node
         uses: actions/setup-node@v4.0.2
 
       - name: Installing packages
@@ -31,12 +30,14 @@ jobs:
 
       - name: Debug Branch
         run: git branch -a
+
       - name: Debug API Status
         run: curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/${{ github.repository }}/pages
 
-      - name: Deploy 🚀
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.6.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: public
           folder: out
+          clean: true  # Xóa các file cũ trong nhánh public trước khi deploy
