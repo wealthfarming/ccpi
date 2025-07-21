@@ -7,17 +7,17 @@ on:
       - main
 
 permissions:
-  contents: write   # ← allow the token to push
+  contents: write   # Cho phép ghi vào nội dung repository
+  pages: write     # Cho phép quản lý GitHub Pages (nếu cần)
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - 
-        name: Checkout 🛎️
+      - name: Checkout
         uses: actions/checkout@v4.1.7
-      - 
-        name: Setup Node
+
+      - name: Setup Node
         uses: actions/setup-node@v4.0.2
 
       - name: Installing packages
@@ -32,7 +32,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.6.0
         with:
-          token: ${{ secrets.MY_ACCESS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}  # Quay lại dùng token mặc định
           branch: public
           folder: out
           clean: true
