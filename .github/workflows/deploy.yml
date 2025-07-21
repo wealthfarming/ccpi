@@ -29,10 +29,10 @@ jobs:
       - name: Build page
         run: yarn run build && touch ./out/.nojekyll
 
-      - name: Deploy 🚀
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.6.0
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MY_ACCESS_TOKEN }}
           branch: public
           folder: out
           clean: true
