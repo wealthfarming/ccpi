@@ -1,4 +1,3 @@
-// app/page.tsx
 import { ClientsSection } from "@/components/ClientsSection";
 import { ExpertiseSection } from "@/components/ExpertiseSection";
 import { Footer } from "@/components/Footer";
