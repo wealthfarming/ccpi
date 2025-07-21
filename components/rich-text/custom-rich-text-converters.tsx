@@ -67,7 +67,7 @@ export function getCustomRichTextConverters(defaultConverters: any) {
           href={url}
           target={newTab ? '_blank' : '_self'}
           rel={newTab ? 'noopener noreferrer' : undefined}
-          className="text-[var(--primary)] underline hover:text-[var(--primary-hover)] transition-colors"
+          className="text-[var(--primary)] text-blue-600 underline transition-colors"
         >
           {children}
         </a>
@@ -81,7 +81,7 @@ export function getCustomRichTextConverters(defaultConverters: any) {
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[var(--primary)] underline hover:text-[var(--primary-hover)] transition-colors"
+          className="text-[var(--primary)] text-blue-600 underline transition-colors"
         >
           {children}
         </a>

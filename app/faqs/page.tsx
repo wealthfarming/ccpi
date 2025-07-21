@@ -1,4 +1,4 @@
-import FAQBanner from "@/components/FAQBanner";
+import FAQBanner from "@/components/faq/FAQBanner";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 

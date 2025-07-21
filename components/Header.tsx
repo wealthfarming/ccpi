@@ -6,7 +6,6 @@ import { useState } from "react";
 
 export function Header() {
   const [isProductsOpen, setIsProductsOpen] = useState(false);
-  const [isNewsOpen, setIsNewsOpen] = useState(false);
 
   return (
     <header className="bg-[#254099] text-white py-4 px-6 sticky top-0 z-50">
@@ -73,25 +72,10 @@ export function Header() {
           {/* News Dropdown */}
           <div 
             className="relative"
-            onMouseEnter={() => setIsNewsOpen(true)}
-            onMouseLeave={() => setIsNewsOpen(false)}
           >
-            <Link href="https://ccpi.vn/news/" className="text-white hover:text-blue-200 transition-colors font-medium flex items-center">
+            <Link href="/news/" className="text-white hover:text-blue-200 transition-colors font-medium flex items-center">
               News
-              <svg className="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-              </svg>
             </Link>
-            {isNewsOpen && (
-              <div className="absolute top-full left-0 mt-0 w-96 z-50">
-                <div className="h-[29px] w-full"></div>
-                <div className="bg-gray-100 shadow-lg">
-                  <Link href="https://ccpi.vn/nft-beq-index-the-next-gen-index-investment-certificate/" className="block px-6 py-4 text-[#2B4FBB] hover:bg-gray-200 transition-colors font-medium">
-                    NFT BEQ INDEX – The Next-Gen Index Investment Certificate
-                  </Link>
-                </div>
-              </div>
-            )}
           </div>
 
           <Link href="/legal-term-of-service/" className="text-white hover:text-blue-200 transition-colors font-medium">

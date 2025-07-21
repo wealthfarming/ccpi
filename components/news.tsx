@@ -5,6 +5,8 @@ import { RichText } from '@payloadcms/richtext-lexical/react';
 import { getCustomRichTextConverters } from '@/components/rich-text/custom-rich-text-converters';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import CallToActionSection from './CallToActionSection';
+import BottomNavigation from './BottomNavigation';
 
 interface Props {
   post: {
@@ -79,6 +81,8 @@ export default function News({ post }: Props) {
             }
           />
         </div>
+      <CallToActionSection/>
+      <BottomNavigation/>
       <Footer />
     </div>
   );
