@@ -29,6 +29,11 @@ jobs:
       - name: Build page
         run: yarn run build && touch ./out/.nojekyll
 
+        - name: Debug Branch
+          run: git branch -a
+        - name: Debug API Status
+          run: curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/${{ github.repository }}/pages
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.6.0
         with:
