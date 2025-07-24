@@ -1,10 +1,14 @@
 'use client';
 import { Phone, EnvelopeSimple, MapPin } from '@phosphor-icons/react';
+import { useTranslation } from 'react-i18next';
 
-const contactItems = [
+export default function ContactInfo() {
+  const { t } = useTranslation()
+
+  const contactItems = [
   {
     icon: <Phone size={40} className="text-gray-700" />,
-    title: 'Phone',
+    title: t("phone"),
     description: 'A wonderful serenity has taken possession of my entire soul, like these.',
     info: '+1-2345-2345',
     link: '#',
@@ -18,14 +22,13 @@ const contactItems = [
   },
   {
     icon: <MapPin size={40} className="text-gray-700" />,
-    title: 'Location',
+    title: t("location"),
     description: '4 apt. Flawing Street. The Grand Avenue.<br />Liverpool, UK 33342',
     info: 'View On Google Map',
     link: '#',
   },
 ];
 
-export default function ContactInfo() {
   return (
     <div className="py-8 md:py-12 bg-white">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">

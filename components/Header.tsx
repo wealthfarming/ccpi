@@ -3,9 +3,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export function Header() {
   const [isProductsOpen, setIsProductsOpen] = useState(false);
+
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <header className="bg-[#254099] text-white py-4 px-6 sticky top-0 z-50">
@@ -27,7 +34,7 @@ export function Header() {
         {/* Navigation Menu */}
         <nav className="flex items-center space-x-8">
           <Link href="/about-us/" className="text-white hover:text-blue-200 transition-colors font-medium">
-            About Us
+            {t("about-us")}
           </Link>
           
           {/* Products Dropdown */}
@@ -37,7 +44,7 @@ export function Header() {
             onMouseLeave={() => setIsProductsOpen(false)}
           >
             <Link href="/products/" className="text-white hover:text-blue-200 transition-colors font-medium flex items-center">
-              Products
+            {t("products")}
               <svg className="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
               </svg>
@@ -74,23 +81,26 @@ export function Header() {
             className="relative"
           >
             <Link href="/news/" className="text-white hover:text-blue-200 transition-colors font-medium flex items-center">
-              News
+              {t("news")}
             </Link>
           </div>
 
           <Link href="/legal-term-of-service/" className="text-white hover:text-blue-200 transition-colors font-medium">
-            Terms of Service
+            {t("terms-of-service")}
           </Link>
           <Link href="/faqs/" className="text-white hover:text-blue-200 transition-colors font-medium">
-            FAQs
+            {t("faqs")}
           </Link>
           <Link href="/contact/" className="text-white hover:text-blue-200 transition-colors font-medium">
-            Contact
+            {t("contact")}
           </Link>
-          
+
           {/* Language Switcher */}
           <div className="flex items-center space-x-2 ml-4">
-            <Link href="https://ccpi.vn/vi/" className="flex items-center space-x-1 text-white hover:text-blue-200 transition-colors">
+            <button 
+              onClick={() => changeLanguage('vi')}
+              className="flex items-center space-x-1 text-white hover:text-blue-200 transition-colors"
+            >
               <Image 
                 className="inline" 
                 src="https://ccpi.vn/wp-content/plugins/translatepress-multilingual/assets/images/flags/vi.png" 
@@ -100,9 +110,12 @@ export function Header() {
                 title="Vietnamese"
               />
               <span className="text-sm font-medium">VI</span>
-            </Link>
+            </button>
             <span className="text-blue-200">|</span>
-            <Link href="https://ccpi.vn/" className="flex items-center space-x-1 text-white hover:text-blue-200 transition-colors">
+            <button 
+              onClick={() => changeLanguage('en')}
+              className="flex items-center space-x-1 text-white hover:text-blue-200 transition-colors"
+            >
               <Image 
                 loading="lazy" 
                 className="inline" 
@@ -113,7 +126,7 @@ export function Header() {
                 title="English"
               />
               <span className="text-sm font-medium">EN</span>
-            </Link>
+            </button>
           </div>
         </nav>
       </div>

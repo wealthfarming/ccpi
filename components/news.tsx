@@ -7,44 +7,63 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import CallToActionSection from './CallToActionSection';
 import BottomNavigation from './BottomNavigation';
+import { useTranslation } from 'react-i18next';
+import { toast } from "sonner";
 
-interface Props {
-  post: {
+interface Post {
+  id: string;
+  title: string;
+  slug: string;
+  category: Array<{
     id: string;
     title: string;
-    slug: string;
-    category: Array<{
-      id: string;
-      title: string;
-      createdAt: string;
-      updatedAt: string;
-    }>;
-    description: any;
-    image: {
-      id: string;
-      filename: string;
-      mimeType: string;
-      filesize: number;
-      width: number;
-      height: number;
-      focalX: number;
-      focalY: number;
-      createdAt: string;
-      updatedAt: string;
-      url: string;
-      thumbnailURL: string | null;
-    };
     createdAt: string;
     updatedAt: string;
+  }>;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  description: any; // Use any for complex rich text structure
+  image: {
+    id: string;
+    filename: string;
+    mimeType: string;
+    filesize: number;
+    width: number;
+    height: number;
+    focalX: number;
+    focalY: number;
+    createdAt: string;
+    updatedAt: string;
+    url: string;
+    thumbnailURL: string | null;
   };
+  createdAt: string;
+  updatedAt: string;
 }
 
-export default function News({ post }: Props) {
+interface Props {
+  postsByLanguage: { [key: string]: Post | null };
+}
+
+export default function News({ postsByLanguage }: Props) {
+  const { t, i18n } = useTranslation();
   const [isClient, setIsClient] = useState(false);
+  const [post, setPost] = useState<Post>(postsByLanguage.en!);
 
   useEffect(() => {
     setIsClient(true);
   }, []);
+
+  useEffect(() => {
+    if (!isClient) return;
+    const selectedPost = postsByLanguage[i18n.language] || postsByLanguage.en;
+    if (selectedPost) {
+      setPost(selectedPost);
+    } else {
+      console.warn(`Không tìm thấy bài post với trong ${i18n.language}, chuyển về tiếng Anh`);
+      setPost(postsByLanguage.en!);
+      toast.error(t("post_not_found"));
+    }
+  }, [isClient, i18n.language, postsByLanguage]);
 
   if (!isClient) return null;
 

@@ -1,6 +1,8 @@
 'use client';
+import { useTranslation } from "react-i18next";
 
 const TermsOfService = () => {
+  const { t } = useTranslation()
   return (
     <div className="min-h-screen bg-white font-sans text-gray-800">
       <div 
@@ -37,7 +39,7 @@ const TermsOfService = () => {
                           textShadow: "2px 2px 4px rgba(0,0,0,0.7)"
                         }}
                     >
-                        Terms of Service
+                        {t("terms-of-service")}
                     </h1>
                 </div>
             </header>

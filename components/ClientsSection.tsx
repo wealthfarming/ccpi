@@ -1,8 +1,11 @@
+"use client"
 // components/ClientsSection.tsx
 import Image from "next/image";
 import { Link } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export function ClientsSection() {
+  const { t } = useTranslation()
   return (
     <section className="py-12" style={{ margin: "30px 0px 0px 0px" }}>
       <div className="container mx-auto">
@@ -18,7 +21,7 @@ export function ClientsSection() {
               color: "#232323" 
             }}
           >
-            Our Clients
+            {t("our-clients")}
           </h3>
         </div>
 

@@ -1,6 +1,10 @@
+"use client"
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const ProductBanner = () => {
+  const { t } = useTranslation()
+
   return (
     <div className="relative w-full" id="financity-page-wrapper">
       <div 
@@ -38,7 +42,7 @@ const ProductBanner = () => {
                     textShadow: "2px 2px 4px rgba(0,0,0,0.7)"
                   }}
                 >
-                  Products
+                  {t("products")}
                 </h1>
               </div>
             </header>
