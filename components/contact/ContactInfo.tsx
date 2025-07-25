@@ -24,7 +24,7 @@ export default function ContactInfo() {
     icon: <MapPin size={40} className="text-gray-700" />,
     title: t("location"),
     description: '4 apt. Flawing Street. The Grand Avenue.<br />Liverpool, UK 33342',
-    info: 'View On Google Map',
+    info: t('view-map'),
     link: '#',
   },
 ];

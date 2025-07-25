@@ -1,8 +1,11 @@
 'use client';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
+
 
 const DynamicMultiAssetTradableIndex = () => {
+  const { t } = useTranslation()
   const listRef = useRef<HTMLDivElement>(null);
   const [lineStyle, setLineStyle] = useState<{ left: number; width: number }>({ left: 0, width: 0 });
 
@@ -88,43 +91,43 @@ const DynamicMultiAssetTradableIndex = () => {
             value="introduction"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            INTRODUCTION
+            {t("introduction")}
           </TabsTrigger>
           <TabsTrigger
             value="chart"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            CHART
+            {t("chart")}
           </TabsTrigger>
           <TabsTrigger
             value="overview"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            OVERVIEW
+            {t("overview")}
           </TabsTrigger>
           <TabsTrigger
             value="performance"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            PERFORMANCE
+            {t("performance")}
           </TabsTrigger>
           <TabsTrigger
             value="components"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            COMPONENTS
+            {t("components")}
           </TabsTrigger>
           <TabsTrigger
             value="historical-data"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            HISTORICAL DATA
+            {t("his-data")}
           </TabsTrigger>
           <TabsTrigger
             value="documents"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            DOCUMENTS
+             {t("documents")}
           </TabsTrigger>
           <div 
             className="absolute bottom-0 h-[2px] bg-[#254099] transition-all duration-300"

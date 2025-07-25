@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 interface NewsItem {
   id: number;
@@ -53,6 +54,7 @@ const newsItems: NewsItem[] = [
 ];
 
 export function LatestNews() {
+  const { t } = useTranslation()
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const totalSlides = 3; // 5 slides for each news item
@@ -97,14 +99,14 @@ export function LatestNews() {
                 color: "#262626" 
               }}
             >
-              Latest News
+              {t("latest-news")}
             </h3>
             <Link 
               href="/news" 
               className="text-blue-600 hover:text-blue-800 mt-2 inline-block"
               style={{ fontSize: "14px", color: "#254099" }}
             >
-              Read All News
+                {t("read-all-news")}
             </Link>
           </div>
           
@@ -187,7 +189,7 @@ export function LatestNews() {
                            style={{ backgroundColor: "#254099", width: "128px", height: "40px" }}
                            asChild
                          >
-                           <a href={item.link}>Read More</a>
+                           <a href={item.link}>{t("read-more")}</a>
                          </Button>
                        </CardContent>
                      </Card>
@@ -245,7 +247,7 @@ export function LatestNews() {
                              style={{ backgroundColor: "#254099", width: "128px", height: "40px" }}
                              asChild
                            >
-                             <a href={item.link}>Read More</a>
+                             <a href={item.link}>{t("read-more")}</a>
                            </Button>
                        </CardContent>
                      </Card>

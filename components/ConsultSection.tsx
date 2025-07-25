@@ -1,7 +1,9 @@
-// components/ServicesSection.tsx
+"use client"
 import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 
 export default function ServicesSection() {
+  const { t } = useTranslation()
   return (
     <div className="grid grid-cols-3 gap-0">
       {/* Business & Financial Consult */}
@@ -17,7 +19,7 @@ export default function ServicesSection() {
         </div>
         <div className="container mx-auto px-4 relative z-10 pl-20">
           <h3 className="text-2xl font-light text-blue-400 mb-4">
-            Business & Financial Consult
+            {t("business-finance")}
           </h3>
           <p className="text-base text-gray-300">
             A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot.
@@ -45,7 +47,7 @@ export default function ServicesSection() {
             <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
             <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
           </svg>
-          <h3 className="text-xl font-light">Consulting</h3>
+          <h3 className="text-xl font-light">{t("consulting")}</h3>
         </div>
       </div>
 
@@ -70,7 +72,7 @@ export default function ServicesSection() {
             height={56}
             className="mx-auto mb-4"
           />
-          <h3 className="text-xl font-light text-gray-800">Analyzing</h3>
+          <h3 className="text-xl font-light text-gray-800">{t("analyzing")}</h3>
         </div>
       </div>
 
@@ -87,7 +89,7 @@ export default function ServicesSection() {
         </div>
         <div className="container mx-auto px-4 relative z-10 pl-20">
           <h3 className="text-2xl font-light text-blue-400 mb-4">
-            Analyze The Opportunities
+            {t('analyze-op')}
           </h3>
           <p className="text-base text-gray-300">
             A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot.

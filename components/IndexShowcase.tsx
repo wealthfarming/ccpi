@@ -1,7 +1,9 @@
+"use client"
 // components/IndexShowcase.tsx
 import { AreaChart } from "lucide-react";
-
+import { useTranslation } from "react-i18next";
 export function IndexShowcase() {
+  const { t } = useTranslation()
   return (
     <>
       {/* Financial Indices Section */}
@@ -55,7 +57,7 @@ export function IndexShowcase() {
                       Logistics Indexes Series
                     </h3>
                     <div className="text-[17px] leading-relaxed opacity-90">
-                      <p>Development of new products and services focused on the logistics value chain</p>
+                      <p>{t("showcase-des-1")}</p>
                     </div>
                   </div>
                 </div>
@@ -81,7 +83,7 @@ export function IndexShowcase() {
                       Vietnam Women CEO Indexes Series
                     </h4>
                     <div className="text-[17px] leading-relaxed opacity-90">
-                      <p>CCPI found women to be the most underutilized source of growth that could send global market valuations soaring.</p>
+                      <p>{t("showcase-des-2")}</p>
                     </div>
                   </div>
                 </div>
@@ -107,7 +109,7 @@ export function IndexShowcase() {
                       Energy Indexes Series
                     </h4>
                     <div className="text-[17px] leading-relaxed opacity-90">
-                      <p>Navigating the energy landscape with clarity and confidence.</p>
+                      <p>{t("showcase-des-3")}</p>
                     </div>
                   </div>
                 </div>

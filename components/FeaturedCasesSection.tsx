@@ -1,6 +1,7 @@
-// components/FeaturedCasesSection.tsx
-
+"use client"
+import { useTranslation } from "react-i18next";
 export function FeaturedCasesSection() {
+  const { t } = useTranslation()
   return (
     <section 
       className="bg-white" 
@@ -22,7 +23,7 @@ export function FeaturedCasesSection() {
               color: "#212121" 
             }}
           >
-            Our Featured Cases
+            {t("our-featured-cases")}
           </h3>
         </div>
         

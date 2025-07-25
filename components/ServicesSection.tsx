@@ -1,7 +1,9 @@
-// components/ServicesSection.tsx
+"use client"
+import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
 
 export function ServicesSection() {
+  const { t }  = useTranslation()
   return (
     <section className="py-10 bg-white">
       <div className="container mx-auto px-6">
@@ -17,7 +19,7 @@ export function ServicesSection() {
               color: "#212121" 
             }}
           >
-            Our Services
+            {t("our-services")}
           </h3>
         </div>
         
@@ -48,16 +50,16 @@ export function ServicesSection() {
           </div>
           <div className="lg:col-span-2 flex items-start">
             <div className="text-black">
-              <h4 className="text-center text-xl font-bold mb-6">Indexes & Benchmarks</h4>
+              <h4 className="text-center text-xl font-bold mb-6">{t("services-title-1")}</h4>
               <ul className="space-y-4 text-sm leading-relaxed">
                 <li>
-                  <strong>Global, regional, and sector benchmarks:</strong> Track performance across diversified markets, including equities, fixed income, and real estate.
+                  <strong>{t("services-des-bold-11")}</strong> {t("services-des-11")}
                 </li>
                 <li>
-                  <strong>Thematic and factor-based indexes:</strong> Focus on specific investment themes like ESG, clean energy, or value investing.
+                  <strong>{t("services-des-bold-12")}</strong> {t("services-des-12")}
                 </li>
                 <li>
-                  <strong>Custom indexes:</strong> Design personalized benchmarks tailored to unique investment strategies and objectives.
+                  <strong>{t("services-des-bold-13")}</strong> {t("services-des-13")}
                 </li>
               </ul>
             </div>
@@ -68,16 +70,16 @@ export function ServicesSection() {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 mb-30">
           <div className="lg:col-span-2 flex items-start">
             <div className="text-black">
-              <h4 className="text-center text-xl font-bold mb-6">Research & Analytics</h4>
+              <h4 className="text-center text-xl font-bold mb-6">{t("services-title-2")}</h4>
               <ul className="space-y-4 text-sm leading-relaxed">
                 <li>
-                  <strong>Fundamental and quantitative research:</strong> Deep dives into market trends, sector dynamics, and company financials.
+                  <strong>{t("services-des-bold-21")}</strong> {t("services-des-21")}
                 </li>
                 <li>
-                  <strong>Risk and return analysis:</strong> Identify potential risks and optimize portfolio performance through data-driven insights.
+                  <strong>{t("services-des-bold-22")}</strong> {t("services-des-22")}
                 </li>
                 <li>
-                  <strong>ESG ratings and data:</strong> Assess the environmental, social, and governance practices of companies for sustainable investment decisions.
+                  <strong>{t("services-des-bold-23")}</strong> {t("services-des-23")}
                 </li>
               </ul>
             </div>
@@ -110,16 +112,16 @@ export function ServicesSection() {
           </div>
           <div className="lg:col-span-2 flex items-start">
             <div className="text-black">
-              <h4 className="text-center text-xl font-bold mb-6">Portfolio Tools & Technology</h4>
+              <h4 className="text-center text-xl font-bold mb-6">{t("services-title-3")}</h4>
               <ul className="space-y-4 text-sm leading-relaxed">
                 <li>
-                  <strong>Portfolio construction and optimization:</strong> Build effective portfolios aligned with specific risk preferences and investment goals.
+                  <strong>{t("services-des-bold-31")}</strong> {t("services-des-31")}
                 </li>
                 <li>
-                  <strong>Performance measurement and attribution:</strong> Track portfolio performance and identify alpha-generating components.
+                  <strong>{t("services-des-bold-32")}</strong> {t("services-des-32")}
                 </li>
                 <li>
-                  <strong>Data and software solutions:</strong> Access comprehensive financial data and analytical tools to fuel informed investment decisions.
+                  <strong>{t("services-des-bold-33")}</strong> {t("services-des-33")}
                 </li>
               </ul>
             </div>
@@ -130,16 +132,16 @@ export function ServicesSection() {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-2 flex items-start">
             <div className="text-black">
-              <h4 className="text-center text-xl font-bold mb-6">Investment Support & Services</h4>
+              <h4 className="text-center text-xl font-bold mb-6">{t("services-title-4")}</h4>
               <ul className="space-y-4 text-sm leading-relaxed">
                 <li>
-                  <strong>Index licensing and replication:</strong> Utilize CCPI&apos;s indexes as benchmarks for investment products and strategies.
+                  <strong>{t("services-des-bold-41")}</strong> {t("services-des-41")}
                 </li>
                 <li>
-                  <strong>Consulting and advisory services:</strong> Leverage CCPI&apos;s expertise for customized solutions and market insights.
+                  <strong>{t("services-des-bold-42")}</strong> {t("services-des-42")}
                 </li>
                 <li>
-                  <strong>Educational resources and events:</strong> Stay informed with research reports, webinars, and conferences on industry trends and best practices.
+                  <strong>{t("services-des-bold-43")}</strong> {t("services-des-43")}
                 </li>
               </ul>
             </div>
