@@ -12,7 +12,6 @@ import EnPostData from '@/data/news/english.json';
 import ViPostData from '@/data/news/vietnamese.json';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from "react";
-import { toast } from "sonner";
 
 interface Post {
   id: string;
@@ -67,11 +66,11 @@ export default function NewsPage() {
       setPosts(selectedPosts);
       setCurrentPage(1); // Reset to first page when language changes
     } else {
-      console.warn(`Không tìm thấy bài post với trong ${i18n.language}, chuyển về tiếng Anh`);
+      console.warn(`${t("post_not_found")} ${i18n.language}`);
       setPosts(postsByLanguage.en!);
-      toast.error(t("post_not_found"));
+      // toast.error(t("post_not_found"));
     }
-  }, [i18n.language]);
+  }, [i18n.language, t]);
 
   // Calculate pagination
   const totalPosts = posts.length;
@@ -171,7 +170,7 @@ export default function NewsPage() {
                 <CardFooter className="p-4 border-t flex justify-between items-center text-sm text-gray-500">
                   <div className="flex items-center">
                     <User className="mr-2" size={16} />
-                    BeQ Team
+                    {t("beq_team")}
                   </div>
                   <div className="flex flex-wrap gap-2">
                     <Folder className="mr-2" size={16} />

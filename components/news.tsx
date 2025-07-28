@@ -59,11 +59,11 @@ export default function News({ postsByLanguage }: Props) {
     if (selectedPost) {
       setPost(selectedPost);
     } else {
-      console.warn(`Không tìm thấy bài post với trong ${i18n.language}, chuyển về tiếng Anh`);
+      console.warn(`${t("post_not_found")} ${i18n.language}`);
       setPost(postsByLanguage.en!);
       toast.error(t("post_not_found"));
     }
-  }, [isClient, i18n.language, postsByLanguage]);
+  }, [isClient, i18n.language, postsByLanguage, t]);
 
   if (!isClient) return null;
 

@@ -43,13 +43,13 @@ export function HeroSlider() {
     },
     {
       id: 4,
-      backgroundImage: "https://ccpi.vn/wp-content/uploads/2023/12/slide-4-2.png",
-      subtitle: "By",
-      title: "BeQHoldings.com",
+      backgroundImage: "https://ccpi.vn/wp-content/uploads/2023/12/slide-4-1.png",
+      subtitle: t("by"),  
+      title: "CCPI",
       description: t("hero-des-4"),
-      buttonText: "Website",
-      buttonLink: "https://beqholdings.com/",
-      maxWidth: "724px"
+      buttonText: t("website"),
+      buttonLink: "https://ccpi.vn/",
+      maxWidth: "906px"
     }
   ];
 
