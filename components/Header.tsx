@@ -99,7 +99,7 @@ export function Header() {
           <div className="flex items-center space-x-2 ml-4">
             <button 
               onClick={() => changeLanguage('vi')}
-              className="flex items-center space-x-1 text-white hover:text-blue-200 transition-colors"
+              className="flex items-center space-x-1 text-white hover:text-blue-200 transition-colors cursor-pointer"
             >
               <Image 
                 className="inline" 
@@ -114,7 +114,7 @@ export function Header() {
             <span className="text-blue-200">|</span>
             <button 
               onClick={() => changeLanguage('en')}
-              className="flex items-center space-x-1 text-white hover:text-blue-200 transition-colors"
+              className="flex items-center space-x-1 text-white hover:text-blue-200 transition-colors cursor-pointer"
             >
               <Image 
                 loading="lazy" 
