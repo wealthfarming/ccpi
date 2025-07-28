@@ -2,8 +2,10 @@
 
 import React from 'react';
 import { FacebookLogo, PinterestLogo, SkypeLogo, TwitterLogo, InstagramLogo } from '@phosphor-icons/react';
+import { useTranslation } from 'react-i18next';
 
 const ShareThisSection = () => {
+  const { t } = useTranslation()
   return (
     <div className="relative py-[55px] pb-[50px] pt-[50px] bg-[#254099]">
       <div className="max-w-7xl mx-auto px-4">
@@ -11,7 +13,7 @@ const ShareThisSection = () => {
           <div className="col-span-4 text-right">
             <div className="inline-block">
               <h3 className="text-white text-[18px] font-normal tracking-normal text-transform-none inline">
-                Share This
+                {t("share-this")}
               </h3>
             </div>
           </div>

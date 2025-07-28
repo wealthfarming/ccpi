@@ -1,8 +1,11 @@
+"use client"
 // components/ClientsSection.tsx
 import Image from "next/image";
 import { Link } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export function ClientsSection() {
+  const { t } = useTranslation()
   return (
     <section className="py-12" style={{ margin: "30px 0px 0px 0px" }}>
       <div className="container mx-auto">
@@ -18,7 +21,7 @@ export function ClientsSection() {
               color: "#232323" 
             }}
           >
-            Our Clients
+            {t("our-clients")}
           </h3>
         </div>
 
@@ -58,7 +61,7 @@ export function ClientsSection() {
                   textTransform: "none" 
                 }}
               >
-                Asset Managers
+                {t("asset-managers")}
               </h4>
               <p 
                 className="text-gray-600" 
@@ -67,7 +70,7 @@ export function ClientsSection() {
                   letterSpacing: "0px" 
                 }}
               >
-                With groundbreaking research across diverse areas, we empower managers to make informed decisions through the financial industry&apos;s evolution.
+                {t("client-section-1")}
               </p>
             </div>
           </div>
@@ -95,7 +98,7 @@ export function ClientsSection() {
                   textTransform: "none" 
                 }}
               >
-                Asset Owners
+                {t("asset-owners")}
               </h4>
               <p 
                 className="text-gray-600" 
@@ -104,7 +107,7 @@ export function ClientsSection() {
                   letterSpacing: "0px" 
                 }}
               >
-                Boosting investment confidence: institutional investors choose us for superior decision-making frameworks and portfolio analysis tools.
+                {t("client-section-2")}
               </p>
             </div>
           </div>
@@ -132,7 +135,7 @@ export function ClientsSection() {
                   textTransform: "none" 
                 }}
               >
-                Financial Intermediary
+                {t("finan-inter")}
               </h4>
               <p 
                 className="text-gray-600" 
@@ -141,7 +144,7 @@ export function ClientsSection() {
                   letterSpacing: "0px" 
                 }}
               >
-                We provide financial intermediary with the research, analytics, and indexes they need to make informed investment decisions and navigate complexity with ease.
+                {t("client-section-3")}
               </p>
             </div>
           </div>
@@ -169,7 +172,7 @@ export function ClientsSection() {
                   textTransform: "none" 
                 }}
               >
-                Corporates
+                {t("corporates")}
               </h4>
               <p 
                 className="text-gray-600" 
@@ -178,7 +181,7 @@ export function ClientsSection() {
                   letterSpacing: "0px" 
                 }}
               >
-                Gain the ESG and climate edge: benchmark performance, optimize decisions, and unlock capital with our robust data and tools.
+                {t("client-section-4")}
               </p>
             </div>
           </div>
@@ -206,7 +209,7 @@ export function ClientsSection() {
                   textTransform: "none" 
                 }}
               >
-                Researchers
+                {t("researchers")}
               </h4>
               <p 
                 className="text-gray-600" 
@@ -215,7 +218,7 @@ export function ClientsSection() {
                   letterSpacing: "0px" 
                 }}
               >
-                Explore and leverage a vast universe of financial data, including market prices, fundamentals, and alternative datasets, to refine your index construction.
+                {t("client-section-5")}
               </p>
             </div>
           </div>
@@ -243,7 +246,7 @@ export function ClientsSection() {
                   textTransform: "none" 
                 }}
               >
-                Media & Association
+                {t("media-association")}
               </h4>
               <p 
                 className="text-gray-600" 
@@ -252,7 +255,7 @@ export function ClientsSection() {
                   letterSpacing: "0px" 
                 }}
               >
-                Motivate and reward members based on their participation, content creation. Highlight success stories from similar organizations using the platform.
+                {t("client-section-6")}
               </p>
             </div>
           </div>

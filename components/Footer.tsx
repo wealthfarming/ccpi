@@ -1,10 +1,11 @@
 'use client';
-
 import { useState } from 'react';
 import { CaretUp, PaperPlaneRight, Envelope } from '@phosphor-icons/react';
 import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 
 export function Footer() {
+  const { t } = useTranslation()
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
@@ -97,7 +98,7 @@ export function Footer() {
 
             {/* Company Links Column */}
             <div className="lg:col-span-1">
-              <h3 className="text-xl font-semibold mb-6 text-white">Company</h3>
+              <h3 className="text-xl font-semibold mb-6 text-white">{t("company")}</h3>
               <ul className="space-y-3">
                 <li>
                   <a 
@@ -107,7 +108,7 @@ export function Footer() {
                     onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#0e7a96'}
                     onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#1089af'}
                   >
-                    Terms of Service
+                    {t("terms-of-service")}
                   </a>
                 </li>
                 <li>
@@ -118,7 +119,7 @@ export function Footer() {
                     onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#0e7a96'}
                     onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#1089af'}
                   >
-                    Contact us
+                    {t("contact-us")}
                   </a>
                 </li>
               </ul>
@@ -199,7 +200,7 @@ export function Footer() {
 
             {/* Contact Form Column */}
             <div className="lg:col-span-1">
-              <h3 className="text-xl font-semibold mb-6 text-white">Contact Form</h3>
+              <h3 className="text-xl font-semibold mb-6 text-white">{t("contact-form")}</h3>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                   <input
@@ -207,7 +208,7 @@ export function Footer() {
                     name="fullName"
                     value={formData.fullName}
                     onChange={handleInputChange}
-                    placeholder="Full Name*"
+                    placeholder={t("full-name") + "*"}
                     className="w-full px-4 py-3 text-white placeholder-gray-400 bg-gray-700 border-0 rounded-none focus:outline-none focus:ring-2 focus:ring-blue-500"
                     required
                   />
@@ -228,7 +229,7 @@ export function Footer() {
                     name="message"
                     value={formData.message}
                     onChange={handleInputChange}
-                    placeholder="Message*"
+                    placeholder={t("message") + "*"}
                     rows={6}
                     className="w-full px-4 py-3 text-white placeholder-gray-400 bg-gray-700 border-0 rounded-none resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"
                     required
@@ -242,7 +243,7 @@ export function Footer() {
                     onMouseEnter={(e) => (e.target as HTMLElement).style.backgroundColor = '#1e336b'}
                     onMouseLeave={(e) => (e.target as HTMLElement).style.backgroundColor = '#254099'}
                   >
-                    Submit Now
+                    {t("submit-now")}
                   </button>
                 </div>
               </form>

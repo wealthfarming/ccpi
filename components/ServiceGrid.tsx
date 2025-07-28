@@ -1,11 +1,13 @@
-// components/ServiceGrid.tsx
+"use client"
 import ServiceCard from './ServiceCard';
+import { useTranslation } from 'react-i18next';
 
 export default function ServiceGrid() {
+  const { t } = useTranslation()
   const services = [
     {
-      title: 'Capital Markets',
-      description: 'Providing insight-driven transformation to investment banks, wealth and asset managers, exchanges, clearing houses.',
+      title: t('capital-markets'),
+      description: t("product-service-des"),
       iconSrc: 'https://ccpi.vn/wp-content/uploads/2017/08/service-icon-1.png',
       iconAlt: 'Capital Markets Icon',
       iconWidth: 60,
@@ -13,7 +15,7 @@ export default function ServiceGrid() {
     //   href: '/financity/capital-markets/',`
     },
     {
-      title: 'Indexing',
+      title: t('indexing'),
       iconSrc: '', // No icon in the provided HTML for this one, you can add if needed or use a Phosphor icon as fallback
       iconAlt: 'Indexing Icon',
       iconWidth: 60,
@@ -22,7 +24,7 @@ export default function ServiceGrid() {
     },
     {
       title: 'Blockchain',
-      description: 'Providing insight-driven transformation to investment banks, wealth and asset managers, exchanges, clearing houses.',
+      description: t("product-service-des"),
       iconSrc: 'https://ccpi.vn/wp-content/uploads/2017/08/service-icon-3.png',
       iconAlt: 'Blockchain Icon',
       iconWidth: 55,
@@ -30,8 +32,8 @@ export default function ServiceGrid() {
     //   href: '/financity/blockchain/',
     },
     {
-      title: 'Technology Advisory',
-      description: 'Providing insight-driven transformation to investment banks, wealth and asset managers, exchanges, clearing houses.',
+      title: t('tech-adv'),
+      description: t("product-service-des"),
       iconSrc: 'https://ccpi.vn/wp-content/uploads/2017/08/service-icon-4.png',
       iconAlt: 'Technology Advisory Icon',
       iconWidth: 59,
@@ -39,8 +41,8 @@ export default function ServiceGrid() {
     //   href: '/financity/technology-advisory/',
     },
     {
-      title: 'Finance & Risk',
-      description: 'Providing insight-driven transformation to investment banks, wealth and asset managers, exchanges, clearing houses.',
+      title: t('fin-risk'),
+      description: t("product-service-des"),
       iconSrc: 'https://ccpi.vn/wp-content/uploads/2017/08/service-icon-5.png',
       iconAlt: 'Finance & Risk Icon',
       iconWidth: 58,
@@ -48,8 +50,8 @@ export default function ServiceGrid() {
     //   href: '/financity/finance-risk/',
     },
     {
-      title: 'Portfolio Management',
-      description: 'Providing insight-driven transformation to investment banks, wealth and asset managers, exchanges, clearing houses.',
+      title: t('port-manage'),
+      description: t("product-service-des"),
       iconSrc: 'https://ccpi.vn/wp-content/uploads/2017/08/service-icon-6.png',
       iconAlt: 'Portfolio Management Icon',
       iconWidth: 57,

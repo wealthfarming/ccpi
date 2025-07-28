@@ -1,6 +1,11 @@
+"use client"
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 
 const AboutUsBanner = () => {
+  const { t } = useTranslation()
+
   return (
     <div className="relative w-full" id="financity-page-wrapper">
       <div 
@@ -41,7 +46,7 @@ const AboutUsBanner = () => {
                     textShadow: "2px 2px 4px rgba(0,0,0,0.7)"
                   }}
                 >
-                  About Us
+                  {t("about-us")}
                 </h1>
               </div>
             </header>
