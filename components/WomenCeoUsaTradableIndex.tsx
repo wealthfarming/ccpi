@@ -9,7 +9,6 @@ const WomenCeoUsaTradableIndex = () => {
   const [lineStyle, setLineStyle] = useState<{ left: number; width: number }>({ left: 0, width: 0 });
   const { t } = useTranslation()
 
-
   const updateLine = () => {
     if (listRef.current) {
       const activeTab = listRef.current.querySelector('[data-state="active"]') as HTMLElement | null;

@@ -3,7 +3,6 @@
 import PortfolioComponent from '@/components/PersonalAssetManagement/PortfolioComponent'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import HelpMonitoringSection from '@/components/PersonalAssetManagement/HelpMonitoringSection'
 import ProjectSectionsComponent from '@/components/ProjectSectionsComponent'
 
 const page = () => {

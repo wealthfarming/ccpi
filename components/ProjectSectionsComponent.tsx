@@ -1,6 +1,5 @@
 'use client'
 import React from 'react';
-import { Dot } from '@phosphor-icons/react';
 
 const ProjectSectionsComponent: React.FC = () => {
     return (
