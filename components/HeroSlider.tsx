@@ -3,51 +3,53 @@
 
 import { useState, useEffect } from 'react';
 import { CaretLeft, CaretRight } from '@phosphor-icons/react';
+import { useTranslation } from 'react-i18next';
 
 export function HeroSlider() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
+  const { t } = useTranslation()
 
   const slides = [
     {
       id: 1,
       backgroundImage: "https://ccpi.vn/wp-content/uploads/2023/12/side-3-1.png",
-      subtitle: "Invest",
-      title: "Smarter, not Harder",
-      description: "Empower your portfolio. Let data-driven insights guide your journey to investment success. Uncover alpha opportunities with cutting-edge tools and curated indexes.",
-      buttonText: "Explore Indexes",
+      subtitle: t("invest"),
+      title: t("smarter-notharder"),
+      description: t("hero-des-1"),
+      buttonText: t("explore-indexes"),
       buttonLink: "https://dashboardlive.ccpi.vn/",
       maxWidth: "906px"
     },
     {
       id: 2,
       backgroundImage: "https://ccpi.vn/wp-content/uploads/2023/12/slide-2-2.png",
-      subtitle: "Indexes Dashboard",
-      title: "Screener of Best Performers",
-      description: "Explore our interactive dashboard, where indexes come to life. Track markets your way: customize, compare, and conquer with the ultimate index platform.",
-      buttonText: "Screen For Winners",
+      subtitle: t("indexes-dashboard"),
+      title: t("screener"),
+      description: t("hero-des-2"),
+      buttonText: t("screen"),
       buttonLink: "https://dashboard.ccpi.vn/",
       maxWidth: "896px"
     },
     {
       id: 3,
       backgroundImage: "https://ccpi.vn/wp-content/uploads/2023/12/slide-3-4.png",
-      subtitle: "CCPI Platform",
-      title: "Create an Index Yourself",
-      description: "We help you managing asset, provide financial advise. Leave money issue with us and focus on your core business.",
-      buttonText: "Contact Us",
+      subtitle: t("ccpi-platform"),
+      title: t("create-index"),
+      description: t("hero-des-3"),
+      buttonText: t("contact-us"),
       buttonLink: "#contact",
       maxWidth: "724px"
     },
     {
       id: 4,
-      backgroundImage: "https://ccpi.vn/wp-content/uploads/2023/12/slide-4-2.png",
-      subtitle: "By",
-      title: "BeQHoldings.com",
-      description: "We help you managing asset, provide financial advise. Leave money issue with us and focus on your core business.",
-      buttonText: "Website",
-      buttonLink: "https://beqholdings.com/",
-      maxWidth: "724px"
+      backgroundImage: "https://ccpi.vn/wp-content/uploads/2023/12/slide-4-1.png",
+      subtitle: t("by"),  
+      title: "CCPI",
+      description: t("hero-des-4"),
+      buttonText: t("website"),
+      buttonLink: "/",
+      maxWidth: "906px"
     }
   ];
 

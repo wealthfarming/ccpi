@@ -1,6 +1,9 @@
+"use client"
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const FAQBanner = () => {
+  const { t } = useTranslation()
   return (
     <div className="relative w-full" id="financity-page-wrapper">
       <div 
@@ -38,10 +41,10 @@ const FAQBanner = () => {
                     textShadow: "2px 2px 4px rgba(0,0,0,0.7)"
                   }}
                 >
-                  FAQs
+                  {t("faqs")}
                 </h1>
                 <p className="text-white text-xl">
-                  Decoding the Digital Maze Emphasizes Clarity and Guidance
+                  {t("faqs-description")}
                 </p>
               </div>
             </header>

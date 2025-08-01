@@ -1,10 +1,14 @@
 'use client';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
+
 
 const BlockchainEtfTradableIndex = () => {
   const listRef = useRef<HTMLDivElement>(null);
   const [lineStyle, setLineStyle] = useState<{ left: number; width: number }>({ left: 0, width: 0 });
+  const { t } = useTranslation()
+
 
   const updateLine = () => {
     if (listRef.current) {
@@ -61,8 +65,8 @@ const BlockchainEtfTradableIndex = () => {
       <div className="bg-gray-100">
         <div className="container mx-auto px-4 py-4">
           <nav className="text-sm text-blue-600">
-            <a href="https://ccpi.vn" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
-            <a href="https://ccpi.vn/products/" className="hover:underline p-2 color-[#254099]">Products</a> &gt; <span className="text-gray-600 p-2">BLOCKCHAIN ETF TRADABLE INDEX</span>
+            <a href="/" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
+            <a href="/products/" className="hover:underline p-2 color-[#254099]">Products</a> &gt; <span className="text-gray-600 p-2">BLOCKCHAIN ETF TRADABLE INDEX</span>
           </nav>
         </div>
       </div>
@@ -88,43 +92,43 @@ const BlockchainEtfTradableIndex = () => {
             value="introduction"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            INTRODUCTION
+            {t("introduction")}
           </TabsTrigger>
           <TabsTrigger
             value="chart"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            CHART
+            {t("chart")}
           </TabsTrigger>
           <TabsTrigger
             value="overview"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            OVERVIEW
+            {t("overview")}
           </TabsTrigger>
           <TabsTrigger
             value="performance"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            PERFORMANCE
+            {t("performance")}
           </TabsTrigger>
           <TabsTrigger
             value="components"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            COMPONENTS
+            {t("components")}
           </TabsTrigger>
           <TabsTrigger
             value="historical-data"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            HISTORICAL DATA
+            {t("his-data")}
           </TabsTrigger>
           <TabsTrigger
             value="documents"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            DOCUMENTS
+            {t("documents")}
           </TabsTrigger>
           <div 
             className="absolute bottom-0 h-[2px] bg-[#254099] transition-all duration-300"
@@ -143,26 +147,25 @@ const BlockchainEtfTradableIndex = () => {
               />
             </div>
             <div className="col-span-2 space-y-4 pl-6">
-              <h2 className="text-3xl font-bold">Introduction</h2>
-              <h4 className="text-2xl font-bold">Blockchain Revolution</h4>
+              <h2 className="text-3xl font-bold">{t("exchanges_intro_title")}</h2>
               <p>
-                Blockchain is revolutionizing finance and investment through enhanced security, transparency, and efficiency. Its immutable, distributed ledger makes data tampering nearly impossible, fostering trust. Decentralization strengthens security against cyberattacks, while transparency promotes accountability. Beyond security, blockchain streamlines transactions, reducing reliance on intermediaries and accelerating settlement times. Smart contracts further automate processes, boosting efficiency.
+                {t("blockchain_intro_p1")}
               </p>
               <p>
-                Blockchain’s transformative potential extends beyond finance. It can revolutionize supply chain management, healthcare, voting, and more. Growing institutional investment and corporate adoption signal its increasing importance.
+                {t("blockchain_intro_p2")}
               </p>
-              <h4 className="text-2xl font-bold">Investment Opportunities</h4>
+              <h4 className="text-2xl font-bold">{t("blockchain_investment_title")}</h4>
               <p>
-                BeQ TOP 5 Blockchain ETF index is a tradable index offer investors a diversified and accessible entry point into the burgeoning blockchain sector.
-              </p>
-              <p>
-                This index also enhances transparency and efficiency. Built on clear, rules-based methodologies, it offers investors a well-defined understanding of the index’s composition and weighting. This transparency serves as a benchmark for evaluating active blockchain investment strategies.
+                {t("blockchain_investment_p1")}
               </p>
               <p>
-                The index is calculated daily, starting from 2018-12-31. It is available in different versions (Price, and Total Return), and converted into different currency such as VND, EUR, GBP, JPY, UST, HKD, CNY, SGD, AUD, CAD, KRW to facilitate the evaluation of actual profit for foreign investor.
+                {t("blockchain_investment_p2")}
               </p>
               <p>
-                From 2019, the annual average performance is about 33.2% per year. Especially the last two recent years (2023, and 2024), the annual respective returns are 96.84% and 44.42%.
+                {t("blockchain_calculation")}
+              </p>
+              <p>
+                {t("blockchain_performance")}
               </p>
             </div>
           </div>

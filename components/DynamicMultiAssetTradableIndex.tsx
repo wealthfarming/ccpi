@@ -1,8 +1,11 @@
 'use client';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
+
 
 const DynamicMultiAssetTradableIndex = () => {
+  const { t } = useTranslation()
   const listRef = useRef<HTMLDivElement>(null);
   const [lineStyle, setLineStyle] = useState<{ left: number; width: number }>({ left: 0, width: 0 });
 
@@ -88,43 +91,43 @@ const DynamicMultiAssetTradableIndex = () => {
             value="introduction"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            INTRODUCTION
+            {t("introduction")}
           </TabsTrigger>
           <TabsTrigger
             value="chart"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            CHART
+            {t("chart")}
           </TabsTrigger>
           <TabsTrigger
             value="overview"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            OVERVIEW
+            {t("overview")}
           </TabsTrigger>
           <TabsTrigger
             value="performance"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            PERFORMANCE
+            {t("performance")}
           </TabsTrigger>
           <TabsTrigger
             value="components"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            COMPONENTS
+            {t("components")}
           </TabsTrigger>
           <TabsTrigger
             value="historical-data"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            HISTORICAL DATA
+            {t("his-data")}
           </TabsTrigger>
           <TabsTrigger
             value="documents"
             className="cursor-pointer px-4 py-2 text-lg font-bold uppercase text-[#1e73be] data-[state=active]:bg-white data-[state=active]:text-[#254099] data-[state=active]:shadow-none"
           >
-            DOCUMENTS
+             {t("documents")}
           </TabsTrigger>
           <div 
             className="absolute bottom-0 h-[2px] bg-[#254099] transition-all duration-300"
@@ -143,16 +146,15 @@ const DynamicMultiAssetTradableIndex = () => {
               />
             </div>
             <div className="col-span-2 space-y-4 pl-6">
-              <h2 className="text-3xl font-bold">Introduction</h2>
-              <h4 className="text-2xl font-bold">MULTI-ASSETS</h4>
+              <h2 className="text-3xl font-bold">{t("exchanges_intro_title")}</h2>
               <p>
-                Multi-Asset Index is composed of several elements representing risky and non-risky assets: Oil, Gold, Bitcoin, Blockchain ETFs, Artificial Intelligence (AI) ETFs, and the 10-year US Treasury bond yields.
+                {t("dynamic_intro_p1")}
               </p>
               <p>
-                Their weighting is reviewed at each monthly revision and modified according to several criteria and market conditions in order to optimize the overall performance of the index.
+                {t("dynamic_intro_p2")}
               </p>
               <p>
-                The index is calculated daily, starting from 2018-12-31. It is available in different versions (Price, and Total Return), and converted into different currency such as VND, EUR, GBP, JPY, UST, HKD, CNY, SGD, AUD, CAD, KRW to facilitate the evaluation of actual profit for foreign investor.
+                {t("dynamic_intro_p3")}
               </p>
             </div>
           </div>

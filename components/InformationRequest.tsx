@@ -1,8 +1,10 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export function InformationRequest() {
+  const { t } = useTranslation()
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
@@ -58,7 +60,7 @@ export function InformationRequest() {
                   lineHeight: '1.2'
                 }}
               >
-                Information Request
+                {t("info-request")}
               </h3>
             </div>
             
@@ -84,8 +86,8 @@ export function InformationRequest() {
                   textTransform: 'none'
                 }}
               >
-                Please fill out the form and press the submit button.<br />
-                We will get back to you with 1-2 business days.
+                {t("please-fill")}<br />
+                {t("we-get-back-to")}
               </p>
             </div>
           </div>
@@ -101,7 +103,7 @@ export function InformationRequest() {
                     name="fullName"
                     value={formData.fullName}
                     onChange={handleInputChange}
-                    placeholder="Full Name*"
+                    placeholder={t("full-name") + "*"}
                     className="w-full px-4 py-3 text-gray-900 placeholder-gray-500 bg-white border-0 rounded-none focus:outline-none focus:ring-2 focus:ring-blue-500"
                     required
                   />
@@ -127,7 +129,7 @@ export function InformationRequest() {
                     name="subject"
                     value={formData.subject}
                     onChange={handleInputChange}
-                    placeholder="Subject*"
+                    placeholder={t("subject") + "*"}
                     className="w-full px-4 py-3 text-gray-900 placeholder-gray-500 bg-white border-0 rounded-none focus:outline-none focus:ring-2 focus:ring-blue-500"
                     required
                   />
@@ -138,7 +140,7 @@ export function InformationRequest() {
                     name="phoneNumber"
                     value={formData.phoneNumber}
                     onChange={handleInputChange}
-                    placeholder="Phone Number"
+                    placeholder={t("phone-num")}
                     className="w-full px-4 py-3 text-gray-900 placeholder-gray-500 bg-white border-0 rounded-none focus:outline-none focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
@@ -150,7 +152,7 @@ export function InformationRequest() {
                   name="message"
                   value={formData.message}
                   onChange={handleInputChange}
-                  placeholder="Message*"
+                  placeholder={t("message") + "*"}
                   rows={6}
                   className="w-full px-4 py-3 text-gray-900 placeholder-gray-500 bg-white border-0 rounded-none resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"
                   required
@@ -164,7 +166,7 @@ export function InformationRequest() {
                   className="bg-white text-gray-900 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 cursor-pointer"
                   style={{ color: "#254099" }}
                 >
-                  Submit Now
+                  {t("submit-now")}
                 </button>
               </div>
             </form>

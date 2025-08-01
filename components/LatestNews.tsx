@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 interface NewsItem {
   id: number;
@@ -20,39 +21,40 @@ const newsItems: NewsItem[] = [
     id: 1,
     date: "26/09/2024",
     title: "VN may be upgraded to emerging market in 2022: VNDirect Securities",
-    link: "https://ccpi.vn/vn-may-be-upgraded-to-emerging-market-in-2022-vndirect-securities/"
+    link: "/vn-may-be-upgraded-to-emerging-market-in-2022-vndirect-securities/"
   },
   {
     id: 2,
     date: "13/12/2023",
     title: "IFRC/Beq Holdings launches a new Sentiment Indexes Series",
     image: "https://ccpi.vn/wp-content/uploads/2023/12/4760477-e1702444953982.jpg",
-    link: "https://ccpi.vn/ifrc-beq-holdings-launches-a-new-sentiment-indexes-series/"
+    link: "/ifrc-beq-holdings-launches-a-new-sentiment-indexes-series/"
   },
   {
     id: 3,
     date: "13/12/2023",
     title: "Value of Assets Managed by Hedge Funds in 2023",
     image: "https://ccpi.vn/wp-content/uploads/2023/12/z4969892875709_24d5271535d088451f78e6535ce0acbd-e1702445300324.jpg",
-    link: "https://ccpi.vn/value-of-assets-managed-by-hedge-funds-in-2023/"
+    link: "/value-of-assets-managed-by-hedge-funds-in-2023/"
   },
   {
     id: 4,
     date: "13/12/2023",
     title: "Vietnam eyes emerging stock market status by 2025",
     image: "https://ccpi.vn/wp-content/uploads/2023/12/1393720-scaled-e1702445457955.jpg",
-    link: "https://ccpi.vn/vietnam-eyes-emerging-stock-market-status-by-2025/"
+    link: "/vietnam-eyes-emerging-stock-market-status-by-2025/"
   },
   {
     id: 5,
     date: "13/12/2023",
     title: "Global Assets under Management set to rise to $145.4 trillion by 2025",
     image: "https://ccpi.vn/wp-content/uploads/2023/12/3734633-e1702445597190.jpg",
-    link: "https://ccpi.vn/global-assets-under-management-set-to-rise-to-145-4-trillion-by-2025/"
+    link: "/global-assets-under-management-set-to-rise-to-145-4-trillion-by-2025/"
   }
 ];
 
 export function LatestNews() {
+  const { t } = useTranslation()
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const totalSlides = 3; // 5 slides for each news item
@@ -97,14 +99,14 @@ export function LatestNews() {
                 color: "#262626" 
               }}
             >
-              Latest News
+              {t("latest-news")}
             </h3>
             <Link 
               href="/news" 
               className="text-blue-600 hover:text-blue-800 mt-2 inline-block"
               style={{ fontSize: "14px", color: "#254099" }}
             >
-              Read All News
+                {t("read-all-news")}
             </Link>
           </div>
           
@@ -187,7 +189,7 @@ export function LatestNews() {
                            style={{ backgroundColor: "#254099", width: "128px", height: "40px" }}
                            asChild
                          >
-                           <a href={item.link}>Read More</a>
+                           <a href={item.link}>{t("read-more")}</a>
                          </Button>
                        </CardContent>
                      </Card>
@@ -245,7 +247,7 @@ export function LatestNews() {
                              style={{ backgroundColor: "#254099", width: "128px", height: "40px" }}
                              asChild
                            >
-                             <a href={item.link}>Read More</a>
+                             <a href={item.link}>{t("read-more")}</a>
                            </Button>
                        </CardContent>
                      </Card>

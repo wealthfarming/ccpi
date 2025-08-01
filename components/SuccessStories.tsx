@@ -1,6 +1,7 @@
 // components/SuccessStories.tsx
 'use client';
 
+import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 
 interface CounterProps {
@@ -59,6 +60,7 @@ function Counter({ end, duration = 2000, label }: CounterProps) {
 }
 
 export function SuccessStories() {
+  const { t } = useTranslation()
   return (
     <section className="bg-white">
       {/* Title Section */}
@@ -74,7 +76,7 @@ export function SuccessStories() {
                 textTransform: "none" 
               }}
             >
-              Success Stories
+              {t("success-stories")}
             </h3>
             <span 
               className="text-gray-600 uppercase"
@@ -87,7 +89,7 @@ export function SuccessStories() {
                 display: "block"
               }}
             >
-              what we have done
+              {t("what-we-done")}
             </span>
           </div>
         </div>
@@ -110,7 +112,7 @@ export function SuccessStories() {
             <div style={{ padding: "0px 0px 0px 15px" }}>
               <Counter 
                 end={30} 
-                label="Years of Indexing experience"
+                label={t("year-indexing")}
               />
             </div>
 
@@ -118,7 +120,7 @@ export function SuccessStories() {
             <div>
               <Counter 
                 end={30762} 
-                label="Vietnam and International Indexes"
+                label={t("vietnam-international")}
               />
             </div>
 
@@ -126,7 +128,7 @@ export function SuccessStories() {
             <div>
               <Counter 
                 end={10} 
-                label="Indexes Categories"
+                label={t("indexes-categories")}
               />
             </div>
 
@@ -134,7 +136,7 @@ export function SuccessStories() {
             <div>
               <Counter 
                 end={5} 
-                label="Continents"
+                label={t("continents")}
               />
             </div>
 
@@ -142,7 +144,7 @@ export function SuccessStories() {
             <div style={{ padding: "0px 15px 0px 0px" }}>
               <Counter 
                 end={97} 
-                label="Countries"
+                label={t("countries")}
               />
             </div>
           </div>

@@ -4,9 +4,11 @@
 import { Check } from "lucide-react";
 import Image from "next/image";
 import { useInterface } from "@/components/context/interface-context";
+import { useTranslation } from "react-i18next";
 
 export function ExpertiseSection() {
   const { isDesktop } = useInterface();
+  const { t } = useTranslation()
   return (
     <>
       {/* Hero Section with Background */}
@@ -29,7 +31,7 @@ export function ExpertiseSection() {
                 color: "#ffffff"
               }}
             >
-              From data to dollars, CCPI equips the global investment community with critical decision support.
+              {t("expertise-title")}
             </h3>
           </div>
         </div>
@@ -60,8 +62,8 @@ export function ExpertiseSection() {
                       color: "#ffffff"
                     }}
                   >
-                    We are an expert in<br />
-                    this field
+                    {t("expert-in")}<br />
+                    {t("this-field")}
                   </h3>
                 </div>
 
@@ -82,7 +84,7 @@ export function ExpertiseSection() {
                           fontSize: "17px" 
                         }}
                       >
-                        Unmatched Customization - you have complete control over the factors, weighting methodologies, and even the underlying data used to construct your index.
+                        {t("expert-des-1")}
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -99,7 +101,7 @@ export function ExpertiseSection() {
                           fontSize: "17px" 
                         }}
                       >
-                        Deep Financial Expertise - This expertise ensures the robustness and accuracy of your custom indices
+                        {t("expert-des-2")}
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -116,7 +118,7 @@ export function ExpertiseSection() {
                           fontSize: "17px" 
                         }}
                       >
-                        Granular Data Universe - We provide access to a vast reservoir of financial data, including market prices, and even ESG and thematic data.
+                        {t("expert-des-3")}
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -133,7 +135,7 @@ export function ExpertiseSection() {
                           fontSize: "17px" 
                         }}
                       >
-                        Advanced Analytical Tools - Our platform is equipped with sophisticated analytical tools for backtesting, performance evaluation, and risk analysis
+                        {t("expert-des-4")}
                       </span>
                     </li>
                   </ul>

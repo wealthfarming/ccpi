@@ -14,7 +14,7 @@ const ContactUs = () => {
             <div
               className="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
               style={{
-                backgroundImage: 'ur[](https://ccpi.vn/wp-content/uploads/2017/09/page-title-background.jpg)',
+                backgroundImage: 'url(https://ccpi.vn/wp-content/uploads/2017/09/page-title-background.jpg)',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center',

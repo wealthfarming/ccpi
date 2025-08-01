@@ -1,7 +1,9 @@
+"use client"
 // components/IndexShowcase.tsx
 import { AreaChart } from "lucide-react";
-
+import { useTranslation } from "react-i18next";
 export function IndexShowcase() {
+  const { t } = useTranslation()
   return (
     <>
       {/* Financial Indices Section */}
@@ -51,11 +53,10 @@ export function IndexShowcase() {
                   </div>
                   <div>
                     <h3 className="text-[18px] font-semibold leading-tight mb-4">
-                      IFRC/BeQ Holdings<br />
-                      Logistics Indexes Series
+                      {t("logistics_indexes_series")}
                     </h3>
                     <div className="text-[17px] leading-relaxed opacity-90">
-                      <p>Development of new products and services focused on the logistics value chain</p>
+                      <p>{t("showcase_des_1")}</p>
                     </div>
                   </div>
                 </div>
@@ -77,11 +78,10 @@ export function IndexShowcase() {
                   </div>
                   <div>
                     <h4 className="text-[18px] font-semibold leading-tight mb-4">
-                      IFRC/BeQ Holdings<br />
-                      Vietnam Women CEO Indexes Series
+                      {t("vietnam_women_ceo_series")}
                     </h4>
                     <div className="text-[17px] leading-relaxed opacity-90">
-                      <p>CCPI found women to be the most underutilized source of growth that could send global market valuations soaring.</p>
+                      <p>{t("showcase_des_2")}</p>
                     </div>
                   </div>
                 </div>
@@ -103,11 +103,10 @@ export function IndexShowcase() {
                   </div>
                   <div>
                     <h4 className="text-[18px] font-semibold leading-tight mb-4">
-                      IFRC/BeQ Holdings<br />
-                      Energy Indexes Series
+                      {t("comprehensive_index_series")}
                     </h4>
                     <div className="text-[17px] leading-relaxed opacity-90">
-                      <p>Navigating the energy landscape with clarity and confidence.</p>
+                      <p>{t("showcase_des_3")}</p>
                     </div>
                   </div>
                 </div>

@@ -1,5 +1,6 @@
 'use client';
 
+import { useTranslation } from 'react-i18next';
 import React, { useEffect, useState } from 'react';
 
 interface CounterProps {
@@ -58,6 +59,8 @@ function Counter({ end, duration = 2000, label }: CounterProps) {
 }
 
 export default function AboutStastic() {
+  const { t } = useTranslation()
+
   return (
     <div 
         className="mx-auto"
@@ -75,7 +78,7 @@ export default function AboutStastic() {
             <div style={{ padding: "0px 0px 0px 15px" }}>
               <Counter 
                 end={30} 
-                label="Years of Indexing experience"
+                label={t("year-indexing")}
               />
             </div>
 
@@ -83,7 +86,7 @@ export default function AboutStastic() {
             <div>
               <Counter 
                 end={30762} 
-                label="Vietnam and International Indexes"
+                label={t("vietnam-international")}
               />
             </div>
 
@@ -91,7 +94,7 @@ export default function AboutStastic() {
             <div>
               <Counter 
                 end={10} 
-                label="Indexes Categories"
+                label={t("indexes-categories")}
               />
             </div>
 
@@ -99,7 +102,7 @@ export default function AboutStastic() {
             <div>
               <Counter 
                 end={5} 
-                label="Continents"
+                label={t("continents")}
               />
             </div>
 
@@ -107,7 +110,7 @@ export default function AboutStastic() {
             <div style={{ padding: "0px 15px 0px 0px" }}>
               <Counter 
                 end={97} 
-                label="Countries"
+                label={t("countries")}
               />
             </div>
           </div>

@@ -1,8 +1,9 @@
-import newsData from '@/data/news.json';
+// import newsData from '@/data/news.json';
 import News from '@/components/news';
 import { notFound } from 'next/navigation';
+import EnPostData from '@/data/news/english.json';
+import ViPostData from '@/data/news/vietnamese.json'
 
-// Define the type for the news data
 interface Post {
   id: string;
   title: string;
@@ -33,12 +34,9 @@ interface Post {
   updatedAt: string;
 }
 
-// Explicitly type newsData as an array of Post
-const typedNewsData: Post[] = newsData;
-
 // Export generateStaticParams for static site generation
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
-  return typedNewsData.map((post: Post) => ({
+  return (EnPostData as Post[]).map((post: Post) => ({
     slug: post.slug,
   }));
 }
@@ -46,13 +44,17 @@ export async function generateStaticParams(): Promise<{ slug: string }[]> {
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
 
-  // Find the post with the matching slug
-  const post = typedNewsData.find((p: Post) => p.slug === slug);
+  const enPost = (EnPostData as Post[]).find((p: Post) => p.slug === slug) || null;
+  const viPost = (ViPostData as Post[]).find((p: Post) => p.slug === slug) || null;
 
-  // If no post is found, return 404
-  if (!post) {
+  if (!enPost) {
     notFound();
   }
 
-  return <News post={post} />;
+  const postsByLanguage: { [key: string]: Post | null } = {
+    en: enPost,
+    vi: viPost,
+  };
+
+  return <News postsByLanguage={postsByLanguage} />;
 }
