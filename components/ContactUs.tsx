@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link'
 
 const ContactUs = () => {
   return (
@@ -123,7 +124,7 @@ const ContactUs = () => {
                       <div className="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                         <div className="gdlr-core-text-box-item-content" style={{ fontSize: '16px' }}>
                           <p>
-                            <a href="#">+1-2345-2345</a>
+                            <Link href="#">+1-2345-2345</Link>
                           </p>
                         </div>
                       </div>
@@ -194,7 +195,7 @@ const ContactUs = () => {
                       <div className="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                         <div className="gdlr-core-text-box-item-content" style={{ fontSize: '16px' }}>
                           <p>
-                            <a href="#">Contact@goodlayers.com</a>
+                            <Link href="#">Contact@goodlayers.com</Link>
                           </p>
                         </div>
                       </div>
@@ -265,7 +266,7 @@ const ContactUs = () => {
                       <div className="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                         <div className="gdlr-core-text-box-item-content" style={{ fontSize: '16px' }}>
                           <p>
-                            <a href="#">View On Google Map</a>
+                            <Link href="#">View On Google Map</Link>
                           </p>
                         </div>
                       </div>
@@ -454,7 +455,7 @@ const ContactUs = () => {
             <div className="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
               <div className="gdlr-core-pbf-element">
                 <div className="gdlr-core-social-network-item gdlr-core-item-pdb gdlr-core-center-align gdlr-core-item-pdlr gdlr-direction-horizontal">
-                  <a
+                  <Link
                     href="mailto:#"
                     target="_blank"
                     className="gdlr-core-social-network-icon"
@@ -462,8 +463,8 @@ const ContactUs = () => {
                     style={{ fontSize: '20px', color: '#1e1e1e', marginRight: '40px' }}
                   >
                     <i className="fa fa-envelope"></i>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#"
                     target="_blank"
                     className="gdlr-core-social-network-icon"
@@ -471,8 +472,8 @@ const ContactUs = () => {
                     style={{ fontSize: '20px', color: '#1e1e1e', marginRight: '40px' }}
                   >
                     <i className="fa fa-facebook"></i>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#"
                     target="_blank"
                     className="gdlr-core-social-network-icon"
@@ -480,8 +481,8 @@ const ContactUs = () => {
                     style={{ fontSize: '20px', color: '#1e1e1e', marginRight: '40px' }}
                   >
                     <i className="fa fa-skype"></i>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#"
                     target="_blank"
                     className="gdlr-core-social-network-icon"
@@ -489,7 +490,7 @@ const ContactUs = () => {
                     style={{ fontSize: '20px', color: '#1e1e1e', marginRight: '40px' }}
                   >
                     <i className="fa fa-twitter"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

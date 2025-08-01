@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link'
 
 export function LogoCarousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -111,7 +112,7 @@ export function LogoCarousel() {
               {logos.map((logo) => (
                 <div key={logo.id} className="w-full lg:w-1/6 md:w-1/3 sm:w-1/2 flex-shrink-0 px-3">
                   <div className="flex items-center justify-center h-[120px]">
-                    <a 
+                    <Link 
                       href={logo.src}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -125,7 +126,7 @@ export function LogoCarousel() {
                         className="w-full h-auto max-w-[120px] max-h-[120px] object-contain mx-auto transition-transform duration-300 hover:scale-105"
                         loading="lazy"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               ))}
@@ -134,7 +135,7 @@ export function LogoCarousel() {
               {logos.slice(0, itemsPerSlide).map((logo) => (
                 <div key={`duplicate-${logo.id}`} className="w-full lg:w-1/6 md:w-1/3 sm:w-1/2 flex-shrink-0 px-3">
                   <div className="flex items-center justify-center h-[120px]">
-                    <a 
+                    <Link 
                       href={logo.src}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -148,7 +149,7 @@ export function LogoCarousel() {
                         className="w-full h-auto max-w-[120px] max-h-[120px] object-contain mx-auto transition-transform duration-300 hover:scale-105"
                         loading="lazy"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               ))}

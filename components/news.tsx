@@ -9,6 +9,7 @@ import CallToActionSection from './CallToActionSection';
 import BottomNavigation from './BottomNavigation';
 import { useTranslation } from 'react-i18next';
 import { toast } from "sonner";
+import Link from 'next/link'
 
 interface Post {
   id: string;
@@ -85,8 +86,8 @@ export default function News({ postsByLanguage }: Props) {
         <div className="bg-gray-100">
         <div className="container mx-auto px-4 py-4">
           <nav className="text-sm text-blue-600">
-            <a href="/" className="hover:underline p-2 color-[#254099]">CCPI</a>
-            &gt; <a href={`/category/${post.category[0].title.toLowerCase().replace(/\s+/g, '-')}`} className="hover:underline">{post.category[0].title}</a> &gt;<span className="text-gray-600 p-2">{post.title}</span>
+            <Link href="/" className="hover:underline p-2 color-[#254099]">CCPI</Link>
+            &gt; <Link href={`/category/${post.category[0].title.toLowerCase().replace(/\s+/g, '-')}`} className="hover:underline">{post.category[0].title}</Link> &gt;<span className="text-gray-600 p-2">{post.title}</span>
           </nav>
         </div>
       </div>

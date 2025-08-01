@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function getCustomRichTextConverters(defaultConverters: any) {
@@ -63,28 +64,28 @@ export function getCustomRichTextConverters(defaultConverters: any) {
       const children = nodesToJSX({ nodes: node.children, parent: node, converters });
       const { url, newTab } = node.fields;
       return (
-        <a
+        <Link
           href={url}
           target={newTab ? '_blank' : '_self'}
           rel={newTab ? 'noopener noreferrer' : undefined}
           className="text-[var(--primary)] text-blue-600 underline transition-colors"
         >
           {children}
-        </a>
+        </Link>
       );
     },
     autolink: ({ node, nodesToJSX, converters }: any) => {
       const children = nodesToJSX({ nodes: node.children, parent: node, converters });
       const { url } = node.fields;
       return (
-        <a
+        <Link
           href={url}
           target="_blank"
           rel="noopener noreferrer"
           className="text-[var(--primary)] text-blue-600 underline transition-colors"
         >
           {children}
-        </a>
+        </Link>
       );
     },
     upload: ({ node }: any) => {
@@ -161,12 +162,12 @@ export function getCustomRichTextConverters(defaultConverters: any) {
     },
     email: ({ node }: any) => {
       return (
-        <a
+        <Link
           href={`mailto:${node.value}`}
           className="text-[var(--primary)] underline hover:text-[var(--primary-hover)] transition-colors"
         >
           {node.value}
-        </a>
+        </Link>
       );
     },
     group: ({ node, nodesToJSX, converters }: any) => {

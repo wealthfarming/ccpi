@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import React from 'react';
+import Link from 'next/link'
 
 const BusinessPortfolioComponent: React.FC = () => {
   return (
@@ -11,16 +12,16 @@ const BusinessPortfolioComponent: React.FC = () => {
         <div className="w-full pb-[40px]">
           {/* Image */}
           <div className="mb-[60px] shadow-[0_0_74px_rgba(10,10,10,0.07)]">
-            <a href="https://ccpi.vn/wp-content/uploads/2017/09/single-port-2-1.jpg" target="_blank" rel="noopener noreferrer">
+            <Link href="https://ccpi.vn/wp-content/uploads/2017/09/single-port-2-1.jpg" target="_blank" rel="noopener noreferrer">
               <Image
                 src="https://ccpi.vn/wp-content/uploads/2017/09/single-port-2-1.jpg"
                 alt=""
                 width={840}
                 height={468}
                 className="w-full h-auto"
-                loading="lazy"
+                loading="lazy"      
               />
-            </a>
+            </Link>
           </div>
 
           {/* Title */}

@@ -3,6 +3,7 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import ResultDrivenComponent from '@/components/ResultDrivenComponent'
 import ProjectSectionsComponent from '@/components/ProjectSectionsComponent'
+import Link from 'next/link'
 
 const page = () => {
   return (
@@ -23,8 +24,8 @@ const page = () => {
         {/* Breadcrumbs */}
         <div className="container mx-auto px-4">
           <nav className="text-sm text-blue-600">
-            <a href="/" className="hover:underline p-2 color-[#254099]">CCPI</a>
-            &gt; <a href={`/portfolio/merger-acquisition`} className="hover:underline">Merger & Acquisition</a> &gt;<span className="text-gray-600 p-2">Merger & Acquisition</span>
+            <Link href="/" className="hover:underline p-2 color-[#254099]">CCPI</Link>
+            &gt; <Link href={`/portfolio/merger-acquisition`} className="hover:underline">Merger & Acquisition</Link> &gt;<span className="text-gray-600 p-2">Merger & Acquisition</span>
           </nav>
         </div>
       <PortfolioComponent />

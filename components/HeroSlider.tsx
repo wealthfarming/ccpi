@@ -4,6 +4,7 @@
 import { useState, useEffect } from 'react';
 import { CaretLeft, CaretRight } from '@phosphor-icons/react';
 import { useTranslation } from 'react-i18next';
+import Link from 'next/link'
 
 export function HeroSlider() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -150,7 +151,7 @@ export function HeroSlider() {
                   </p>
 
                   {/* Button */}
-                  <a
+                  <Link
                     href={slide.buttonLink}
                     target={slide.buttonLink.startsWith('http') ? '_blank' : '_self'}
                     rel={slide.buttonLink.startsWith('http') ? 'noopener noreferrer' : undefined}
@@ -175,7 +176,7 @@ export function HeroSlider() {
                      }}
                   >
                     {slide.buttonText}
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

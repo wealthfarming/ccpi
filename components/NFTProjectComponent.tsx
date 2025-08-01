@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image';
 import React from 'react';
+import Link from 'next/link'
 
 const NFTProjectComponent: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ const NFTProjectComponent: React.FC = () => {
         <div className="w-full md:w-1/2">
           {/* First Image */}
           <div className="mb-[70px] overflow-hidden shadow-none">
-            <a href="https://ccpi.vn/wp-content/uploads/2017/09/single-port-1.jpg" target="_blank" rel="noopener noreferrer">
+            <Link href="https://ccpi.vn/wp-content/uploads/2017/09/single-port-1.jpg" target="_blank" rel="noopener noreferrer">
               <Image
                 src="https://ccpi.vn/wp-content/uploads/2017/09/single-port-1.jpg"
                 alt=""
@@ -19,12 +20,12 @@ const NFTProjectComponent: React.FC = () => {
                 className="w-full h-auto"
                 loading="lazy"
               />
-            </a>
+            </Link>
           </div>
 
           {/* Second Image */}
           <div className="overflow-hidden shadow-[0_0_74px_rgba(10,10,10,0.07)]">
-            <a href="https://ccpi.vn/wp-content/uploads/2017/09/single-port-1-2.jpg" target="_blank" rel="noopener noreferrer">
+            <Link href="https://ccpi.vn/wp-content/uploads/2017/09/single-port-1-2.jpg" target="_blank" rel="noopener noreferrer">
               <Image
                 src="https://ccpi.vn/wp-content/uploads/2017/09/single-port-1-2.jpg"
                 alt=""
@@ -33,7 +34,7 @@ const NFTProjectComponent: React.FC = () => {
                 className="w-full h-auto"
                 loading="lazy"
               />
-            </a>
+            </Link>
           </div>
         </div>
 

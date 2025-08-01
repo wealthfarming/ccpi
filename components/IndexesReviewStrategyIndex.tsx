@@ -2,7 +2,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-
+import Link from 'next/link'
 
 const IndexesReviewStrategyIndex = () => {
   const listRef = useRef<HTMLDivElement>(null);
@@ -65,8 +65,8 @@ const IndexesReviewStrategyIndex = () => {
       <div className="bg-gray-100">
         <div className="container mx-auto px-4 py-4">
           <nav className="text-sm text-blue-600">
-            <a href="/" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
-            <a href="/products/" className="hover:underline p-2 color-[#254099]">Products</a> &gt; <span className="text-gray-600 p-2">{t("indexes_review_strategy")}</span>
+            <Link href="/" className="hover:underline p-2 color-[#254099]">CCPI</Link> &gt; 
+            <Link href="/products/" className="hover:underline p-2 color-[#254099]">Products</Link> &gt; <span className="text-gray-600 p-2">{t("indexes_review_strategy")}</span>
           </nav>
         </div>
       </div>
@@ -252,12 +252,12 @@ const IndexesReviewStrategyIndex = () => {
         {/* Documents Tab */}
         <TabsContent value="documents" className="py-8">
           <div className="text-center">
-            <a 
+            <Link 
               href="https://docs.google.com/presentation/d/1KNItoXa8cd19LnU96j1KAcY2LnE1wjSNkcHQXVdlfMY/edit?slide=id.g36b745b5967_0_812#slide=id.g36b745b5967_0_812"
               className="text-blue-600 hover:underline text-lg font-bold"
             >
               {t("indexes_review_strategy")}
-            </a>
+            </Link>
           </div>
         </TabsContent>
       </Tabs>

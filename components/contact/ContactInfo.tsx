@@ -1,6 +1,7 @@
 'use client';
 import { Phone, EnvelopeSimple, MapPin } from '@phosphor-icons/react';
 import { useTranslation } from 'react-i18next';
+import Link from 'next/link'
 
 export default function ContactInfo() {
   const { t } = useTranslation()
@@ -41,9 +42,9 @@ export default function ContactInfo() {
             <h3 className="text-2xl font-bold mb-4">{item.title}</h3>
             <p className="text-base mb-4" dangerouslySetInnerHTML={{ __html: item.description }} />
             <p className="text-base">
-              <a href={item.link} className="text-[#254099] hover:underline">
+              <Link href={item.link} className="text-[#254099] hover:underline">
                 {item.info}
-              </a>
+              </Link>
             </p>
           </div>
         ))}

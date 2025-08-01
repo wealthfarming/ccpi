@@ -175,12 +175,12 @@ export function LatestNews() {
                                letterSpacing: "0px"
                              }}
                            >
-                             <a 
+                             <Link 
                                href={item.link}
                                className="text-gray-900 hover:text-blue-600 transition-colors duration-300"
                              >
                                {item.title}
-                             </a>
+                             </Link>
                            </h3>
                          </div>
                          
@@ -189,7 +189,7 @@ export function LatestNews() {
                            style={{ backgroundColor: "#254099", width: "128px", height: "40px" }}
                            asChild
                          >
-                           <a href={item.link}>{t("read-more")}</a>
+                           <Link href={item.link}>{t("read-more")}</Link>
                          </Button>
                        </CardContent>
                      </Card>
@@ -233,12 +233,12 @@ export function LatestNews() {
                                letterSpacing: "0px"
                              }}
                            >
-                             <a 
+                             <Link 
                                href={item.link}
                                className="text-gray-900 hover:text-blue-600 transition-colors duration-300"
                              >
                                {item.title}
-                             </a>
+                             </Link>
                            </h3>
                          </div>
                          
@@ -247,7 +247,7 @@ export function LatestNews() {
                              style={{ backgroundColor: "#254099", width: "128px", height: "40px" }}
                              asChild
                            >
-                             <a href={item.link}>{t("read-more")}</a>
+                             <Link href={item.link}>{t("read-more")}</Link>
                            </Button>
                        </CardContent>
                      </Card>

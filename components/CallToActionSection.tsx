@@ -1,6 +1,7 @@
 "use client"
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
+import Link from 'next/link'
 
 const CallToActionSection = () => {
   const { t } = useTranslation()
@@ -27,14 +28,14 @@ const CallToActionSection = () => {
               asChild
               className="bg-[#254099] text-white border-none hover:bg-[#254099] p-5"
             >
-              <a
+              <Link
                 href="https://t.me/+WB-clKjWnuFjZWM1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
               >
                 Telegram
-              </a>
+              </Link>
             </Button>
           </div>
 
@@ -48,14 +49,14 @@ const CallToActionSection = () => {
               asChild
               className="bg-[#254099] text-white border-none hover:bg-[#254099] p-5"
             >
-              <a
+              <Link
                 href="https://t.me/BeQUnicorn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
               >
                 {t("tele-channel")}
-              </a>
+              </Link>
             </Button>
           </div>
         </div>
