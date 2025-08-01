@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { CaretUp, PaperPlaneRight, Envelope } from '@phosphor-icons/react';
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
+import Link from 'next/link'
 
 export function Footer() {
   const { t } = useTranslation()
@@ -101,7 +102,7 @@ export function Footer() {
               <h3 className="text-xl font-semibold mb-6 text-white">{t("company")}</h3>
               <ul className="space-y-3">
                 <li>
-                  <a 
+                  <Link 
                     href="/legal-term-of-service/" 
                     className="transition-colors duration-300"
                     style={{ color: '#1089af' }}
@@ -109,10 +110,10 @@ export function Footer() {
                     onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#1089af'}
                   >
                     {t("terms-of-service")}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a 
+                  <Link 
                     href="#" 
                     className="transition-colors duration-300"
                     style={{ color: '#1089af' }}
@@ -120,7 +121,7 @@ export function Footer() {
                     onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#1089af'}
                   >
                     {t("contact-us")}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -130,7 +131,7 @@ export function Footer() {
               <h3 className="text-xl font-semibold mb-6 text-white">Blog</h3>
               <ul className="space-y-3">
                 <li>
-                  <a 
+                  <Link 
                     href="/warning-signs-preparing-for-a-global-recession/" 
                     className="transition-colors duration-300"
                     style={{ color: '#1089af' }}
@@ -138,10 +139,10 @@ export function Footer() {
                     onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#1089af'}
                   >
                     Warning Signs: Preparing for a Global Recession
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a 
+                  <Link 
                     href="/understanding-behavioral-finance-leveraging-market-psychology-for-smart-investment-decisions/" 
                     className="transition-colors duration-300"
                     style={{ color: '#1089af' }}
@@ -149,10 +150,10 @@ export function Footer() {
                     onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#1089af'}
                   >
                     Understanding Behavioral Finance: Leveraging Market Psychology for Smart Investment Decisions
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a 
+                  <Link 
                     href="/robert-kiyosakis-urgent-warning-why-the-financial-collapse-of-the-us-is-inevitable/" 
                     className="transition-colors duration-300"
                     style={{ color: '#1089af' }}
@@ -160,10 +161,10 @@ export function Footer() {
                     onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#1089af'}
                   >
                     Robert Kiyosaki&apos;s Urgent Warning: Why the Financial Collapse of the U.S. is Inevitable
-                  </a>
+                  </Link>  
                 </li>
                 <li>
-                  <a 
+                  <Link 
                     href="/technical-analysis-of-spx500-leveraging-market-and-technology-for-smarter-trading/" 
                     className="transition-colors duration-300"
                     style={{ color: '#1089af' }}
@@ -171,10 +172,10 @@ export function Footer() {
                     onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#1089af'}
                   >
                     Technical Analysis of SPX500: Leveraging Market and Technology for Smarter Trading
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a 
+                  <Link 
                     href="/women-and-the-journey-to-financial-freedom-taking-control-of-life-through-trading/" 
                     className="transition-colors duration-300"
                     style={{ color: '#1089af' }}
@@ -182,10 +183,10 @@ export function Footer() {
                     onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#1089af'}
                   >
                     Women and the Journey to Financial Freedom: Taking Control of Life Through Trading
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a 
+                  <Link 
                     href="/vn-may-be-upgraded-to-emerging-market-in-2022-vndirect-securities/" 
                     className="transition-colors duration-300"
                     style={{ color: '#1089af' }}
@@ -193,7 +194,7 @@ export function Footer() {
                     onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#1089af'}
                   >
                     VN may be upgraded to emerging market in 2022: VNDirect Securities
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

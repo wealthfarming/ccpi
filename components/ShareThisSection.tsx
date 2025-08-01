@@ -3,6 +3,7 @@
 import React from 'react';
 import { FacebookLogo, PinterestLogo, SkypeLogo, TwitterLogo, InstagramLogo } from '@phosphor-icons/react';
 import { useTranslation } from 'react-i18next';
+import Link from 'next/link'
 
 const ShareThisSection = () => {
   const { t } = useTranslation()
@@ -18,21 +19,21 @@ const ShareThisSection = () => {
             </div>
           </div>
           <div className="col-span-1 flex justify-start space-x-4 pb-0 pl-10">
-            <a href="#" target="_blank" rel="noopener noreferrer" title="facebook" className="text-white">
+            <Link href="#" target="_blank" rel="noopener noreferrer" title="facebook" className="text-white">
               <FacebookLogo size={24} />
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" title="pinterest" className="text-white">
+            </Link>
+            <Link href="#" target="_blank" rel="noopener noreferrer" title="pinterest" className="text-white">
               <PinterestLogo size={24} />
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" title="skype" className="text-white">
+            </Link>
+            <Link href="#" target="_blank" rel="noopener noreferrer" title="skype" className="text-white">
               <SkypeLogo size={24} />
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" title="twitter" className="text-white">
+            </Link>
+            <Link href="#" target="_blank" rel="noopener noreferrer" title="twitter" className="text-white">
               <TwitterLogo size={24} />
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" title="instagram" className="text-white">
+            </Link>
+            <Link href="#" target="_blank" rel="noopener noreferrer" title="instagram" className="text-white">
               <InstagramLogo size={24} />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

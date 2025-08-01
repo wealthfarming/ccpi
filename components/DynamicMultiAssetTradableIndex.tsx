@@ -2,7 +2,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-
+import Link from 'next/link'
 
 const DynamicMultiAssetTradableIndex = () => {
   const { t } = useTranslation()
@@ -64,8 +64,8 @@ const DynamicMultiAssetTradableIndex = () => {
       <div className="bg-gray-100">
         <div className="container mx-auto px-4 py-4">
           <nav className="text-sm text-blue-600">
-            <a href="https://ccpi.vn" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
-            <a href="https://ccpi.vn/products/" className="hover:underline p-2 color-[#254099]">Products</a> &gt; <span className="text-gray-600 p-2">DYNAMIC MULTI ASSET TRADABLE INDEX</span>
+            <Link href="https://ccpi.vn" className="hover:underline p-2 color-[#254099]">CCPI</Link> &gt; 
+            <Link href="https://ccpi.vn/products/" className="hover:underline p-2 color-[#254099]">Products</Link> &gt; <span className="text-gray-600 p-2">DYNAMIC MULTI ASSET TRADABLE INDEX</span>
           </nav>
         </div>
       </div>

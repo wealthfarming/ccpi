@@ -2,6 +2,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
+import Link from 'next/link'
 
 const BeqTop10SportsIndex = () => {
   const { t } = useTranslation()
@@ -63,8 +64,8 @@ const BeqTop10SportsIndex = () => {
       <div className="bg-gray-100">
         <div className="container mx-auto px-4 py-4">
           <nav className="text-sm text-blue-600">
-            <a href="/" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
-            <a href="/products/" className="hover:underline p-2 color-[#254099]">Products</a> &gt; <span className="text-gray-600 p-2">BEQ TOP 10 SPORTS INDEX</span>
+            <Link href="/" className="hover:underline p-2 color-[#254099]">CCPI</Link> &gt; 
+            <Link href="/products/" className="hover:underline p-2 color-[#254099]">Products</Link> &gt; <span className="text-gray-600 p-2">BEQ TOP 10 SPORTS INDEX</span>
           </nav>
         </div>
       </div>
