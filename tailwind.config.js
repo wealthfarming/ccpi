@@ -19,5 +19,4 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],  // If using animations; install if needed: yarn add -D tailwindcss-animate
 };
