@@ -3,8 +3,6 @@
 import BusinessPortfolioComponent from '@/components/BusinessPortfolioComponent'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import HelpMonitoringComponent from '@/components/HelpMonitoringComponent'
-import BusinessProjectSectionsComponent from '@/components/BusinessProjectSectionsComponent'
 import ProjectSectionsComponent from '@/components/ProjectSectionsComponent'
 
 const page = () => {

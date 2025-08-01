@@ -1,5 +1,3 @@
-// components/HelpMonitoringSection.tsx
-
 import React from 'react';
 
 const HelpMonitoringSection: React.FC = () => {

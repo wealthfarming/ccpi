@@ -1,5 +1,5 @@
 'use client';
-import { Calendar, FolderSimple, PencilLine, DotsThree } from '@phosphor-icons/react';
+import { Calendar, FolderSimple, PencilLine } from '@phosphor-icons/react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';

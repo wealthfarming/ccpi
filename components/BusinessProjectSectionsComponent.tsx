@@ -1,7 +1,6 @@
 // components/BusinessProjectSectionsComponent.tsx
 
 import React from 'react';
-import { Dot } from '@phosphor-icons/react';
 
 const BusinessProjectSectionsComponent: React.FC = () => {
   return (
