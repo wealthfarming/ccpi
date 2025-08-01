@@ -146,16 +146,15 @@ const DynamicMultiAssetTradableIndex = () => {
               />
             </div>
             <div className="col-span-2 space-y-4 pl-6">
-              <h2 className="text-3xl font-bold">Introduction</h2>
-              <h4 className="text-2xl font-bold">MULTI-ASSETS</h4>
+              <h2 className="text-3xl font-bold">{t("exchanges_intro_title")}</h2>
               <p>
-                Multi-Asset Index is composed of several elements representing risky and non-risky assets: Oil, Gold, Bitcoin, Blockchain ETFs, Artificial Intelligence (AI) ETFs, and the 10-year US Treasury bond yields.
+                {t("dynamic_intro_p1")}
               </p>
               <p>
-                Their weighting is reviewed at each monthly revision and modified according to several criteria and market conditions in order to optimize the overall performance of the index.
+                {t("dynamic_intro_p2")}
               </p>
               <p>
-                The index is calculated daily, starting from 2018-12-31. It is available in different versions (Price, and Total Return), and converted into different currency such as VND, EUR, GBP, JPY, UST, HKD, CNY, SGD, AUD, CAD, KRW to facilitate the evaluation of actual profit for foreign investor.
+                {t("dynamic_intro_p3")}
               </p>
             </div>
           </div>

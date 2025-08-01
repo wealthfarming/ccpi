@@ -54,22 +54,22 @@ export function Header() {
                 <div className="h-[29px] w-full"></div>
                 <div className="bg-gray-100 shadow-lg">
                   <Link href="/products/beq-top-5-exchanges-index/" className="block px-6 py-4 text-[#2B4FBB] hover:bg-gray-200 transition-colors font-medium">
-                    BEQ TOP 5 EXCHANGES INDEX
+                    {t("beq_top_5_exchanges")}
                   </Link>
                   <Link href="/products/indexes-review-strategy-index-2/" className="block px-6 py-4 text-[#2B4FBB] hover:bg-gray-200 transition-colors font-medium">
-                    INDEXES REVIEW STRATEGY INDEX
+                    {t("indexes_review_strategy")}
                   </Link>
                   <Link href="/products/dynamic-multi-asset-tradable-index/" className="block px-6 py-4 text-[#2B4FBB] hover:bg-gray-200 transition-colors font-medium">
-                    DYNAMIC MULTI ASSET TRADABLE INDEX
+                    {t("dynamic_multi_asset")}
                   </Link>
                   <Link href="/products/blockchain-etf-tradable-index/" className="block px-6 py-4 text-[#2B4FBB] hover:bg-gray-200 transition-colors font-medium">
-                    BLOCKCHAIN ETF TRADABLE INDEX
+                    {t("blockchain_etf")}
                   </Link>
                   <Link href="/products/women-ceo-usa-tradable-index/" className="block px-6 py-4 text-[#2B4FBB] hover:bg-gray-200 transition-colors font-medium">
-                    WOMEN CEO USA TRADABLE INDEX
+                    {t("women_ceo_usa")}
                   </Link>
                   <Link href="/products/beq-top-10-sports-index/" className="block px-6 py-4 text-[#2B4FBB] hover:bg-gray-200 transition-colors font-medium">
-                    BEQ TOP 10 SPORTS INDEX
+                    {t("beq_top_10_sports")}
                   </Link>
                 </div>
               </div>

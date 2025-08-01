@@ -50,7 +50,7 @@
 //         <div className="container mx-auto px-4 py-4">
 //           <nav className="text-sm text-blue-600">
 //             <a href="https://ccpi.vn" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
-//             <a href="https://ccpi.vn/category/legal/" className="hover:underline p-2 color-[#254099]">Legal</a> &gt; <span className="text-gray-600 p-2">Terms of Service</span>
+//             <a href="/category/legal/" className="hover:underline p-2 color-[#254099]">Legal</a> &gt; <span className="text-gray-600 p-2">Terms of Service</span>
 //           </nav>
 //         </div>
 //       </div>
@@ -312,8 +312,8 @@ const TermsOfService = () => {
       <div className="bg-gray-100">
         <div className="container mx-auto px-4 py-4">
           <nav className="text-sm text-blue-600">
-            <a href="https://ccpi.vn" className="hover:underline p-2 color-[#254099]">{t("ccpi")}</a> 
-            <a href="https://ccpi.vn/category/legal/" className="hover:underline p-2 color-[#254099]">{t("legal")}</a><span className="text-gray-600 p-2">{t("terms_of_service")}</span>
+            <a href="/" className="hover:underline p-2 color-[#254099]">{t("ccpi")}</a> 
+            <a href="/category/legal/" className="hover:underline p-2 color-[#254099]">{t("legal")}</a><span className="text-gray-600 p-2">{t("terms_of_service")}</span>
           </nav>
         </div>
       </div>

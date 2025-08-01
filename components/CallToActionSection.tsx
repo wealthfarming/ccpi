@@ -15,8 +15,8 @@ const CallToActionSection = () => {
       ></div>
 
       {/* Content Container */}
-      <div className="relative container mx-auto px-4 bg-white">
-        <div className="flex flex-col md:flex-row gap-6 justify-center">
+      <div className="relative w-[60%] mx-auto px-4 bg-white">
+        <div className="flex flex-col md:flex-row gap-12 justify-center">
           {/* First Call to Action */}
           <div className="flex-1 max-w-md p-8 text-center">
             <h3 className="text-3xl font-bold mb-3">{t("our-tele")}</h3>

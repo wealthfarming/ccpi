@@ -65,8 +65,8 @@ const WomenCeoUsaTradableIndex = () => {
       <div className="bg-gray-100">
         <div className="container mx-auto px-4 py-4">
           <nav className="text-sm text-blue-600">
-            <a href="https://ccpi.vn" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
-            <a href="https://ccpi.vn/products/" className="hover:underline p-2 color-[#254099]">Products</a> &gt; <span className="text-gray-600 p-2">WOMEN CEO USA TRADABLE INDEX</span>
+            <a href="/" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
+            <a href="/products/" className="hover:underline p-2 color-[#254099]">Products</a> &gt; <span className="text-gray-600 p-2">{t("women_ceo_usa")}</span>
           </nav>
         </div>
       </div>
@@ -77,7 +77,7 @@ const WomenCeoUsaTradableIndex = () => {
       {/* Main Title */}
       <div className="mx-auto max-w-7xl px-4 py-6">
         <h1 className="text-4xl font-bold uppercase text-gray-900">
-          WOMEN CEO USA TRADABLE INDEX
+          {t("women_ceo_usa")}
         </h1>
       </div>
 
@@ -147,16 +147,16 @@ const WomenCeoUsaTradableIndex = () => {
               />
             </div>
             <div className="col-span-2 space-y-4 pl-6">
-              <h2 className="text-3xl font-bold">Introduction</h2>
-              <h4 className="text-2xl font-bold">The Women CEO USA</h4>
+              <h2 className="text-3xl font-bold">{t("exchanges_intro_title")}</h2>
+              <h4 className="text-2xl font-bold">{t("women_ceo_usa_title")}</h4>
               <p>
-                The Women CEO USA indexes measure the performance of companies listed in the S&P 500 index that are led by women. The benchmark index measures all companies that meet this condition. As of January 2025, 46 companies within the S&P 500 index are led by a female CEO.
+                {t("women_ceo_intro_p1")}
               </p>
               <p>
-                The tradable Top 10 or Top 20 index reflects the performance of the top 10 (or 20) companies selected based on their market capitalization adjusted for free float and liquidity. Their weighting may be capped to comply with European UCITS directives.
+                {t("women_ceo_intro_p2")}
               </p>
               <p>
-                The index is calculated daily, starting from 2000-12-29. It is available in different versions (Price, and Total Return), and converted into different currency such as VND, EUR, GBP, JPY, UST, HKD, CNY, SGD, AUD, CAD, KRW to facilitate the evaluation of actual profit for foreign investor.
+                {t("women_ceo_intro_p3")}
               </p>
             </div>
           </div>

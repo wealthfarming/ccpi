@@ -63,8 +63,8 @@ const BeqTop10SportsIndex = () => {
       <div className="bg-gray-100">
         <div className="container mx-auto px-4 py-4">
           <nav className="text-sm text-blue-600">
-            <a href="https://ccpi.vn" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
-            <a href="https://ccpi.vn/products/" className="hover:underline p-2 color-[#254099]">Products</a> &gt; <span className="text-gray-600 p-2">BEQ TOP 10 SPORTS INDEX</span>
+            <a href="/" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
+            <a href="/products/" className="hover:underline p-2 color-[#254099]">Products</a> &gt; <span className="text-gray-600 p-2">BEQ TOP 10 SPORTS INDEX</span>
           </nav>
         </div>
       </div>
@@ -145,32 +145,34 @@ const BeqTop10SportsIndex = () => {
               />
             </div>
             <div className="col-span-2 space-y-4 pl-6">
-              <h2 className="text-3xl font-bold">Introduction</h2>
+              <h2 className="text-3xl font-bold">{t("exchanges_intro_title")}</h2>
               <p>
-                International sports events have become powerful economic engines, driving tourism, infrastructure development, and job creation. Host cities experience a surge in visitors, filling hotels, restaurants, and entertainment venues, which boosts local economies. Major tournaments like the Olympics and FIFA World Cup require extensive infrastructure investments, including stadiums, transportation systems, and digital broadcasting capabilities, leaving a lasting economic footprint. These events also create thousands of temporary and permanent jobs across industries such as hospitality, security, and media, further stimulating financial growth.
+                {t("sports_intro_p1")}
               </p>
               <p>
-                From a financial perspective, international sports events generate massive revenue streams through media rights, sponsorships, and ticket sales. Broadcasting deals with global networks bring billions in revenue, while corporate sponsorships from brands like Nike, Coca-Cola, and Visa enhance profitability. The rise of sports betting and gaming has also contributed significantly to financial markets, with legalized betting generating billions in tax revenue and investment opportunities. Additionally, sports franchises and leagues see increased valuations, attracting institutional investors and private equity firms looking for long-term returns.
+                {t("sports_intro_p2")}
               </p>
-              <h2 className="text-3xl font-bold">Investing in Sports</h2>
+              <h2 className="text-3xl font-bold">{t("sports_investing_title")}</h2>
               <p>
-                Investing in a Sports, and especially Sports Index, can be particularly appealing in volatile and uncertain markets because sports assets tend to be <strong>non-correlated with traditional financial markets</strong>. In the other hands:
+                {t("sports_investing_p1")}
               </p>
               <ul className="list-disc pl-6 space-y-2">
-                <li><strong>Resilient Revenue Streams</strong>: Sports franchises generate income from media rights, sponsorships, ticket sales, and merchandise, which remain strong even during economic downturns.</li>
-                <li><strong>Long-Term Growth Potential</strong>: The sports industry is expanding globally, with increasing valuations for teams and leagues, making it a high-return asset class.</li>
-                <li><strong>Institutional Investment Surge</strong>: Major leagues like the NBA, NFL, and European soccer leagues have opened up to private equity, allowing investors to gain exposure to high-value sports assets.</li>
-                <li><strong>Diversification Benefits</strong>: Unlike stocks or bonds, sports investments are less affected by macroeconomic trends, making them a stable hedge against market volatility.</li>
+                <li>{t("sports_resilient_revenue")}</li>
+                <li>{t("sports_growth_potential")}</li>
+                <li>{t("sports_institutional_surge")}</li>
+                <li>{t("sports_diversification")}</li>
               </ul>
               <p>
-                <strong>Sports equity indexes</strong> are still an emerging concept, but private equity firms and institutional investors are increasingly involved in sports-related assets. Here are some key developments:</p>
+                {t("sports_equity_indexes")}
+              </p>
               <ul className="list-disc pl-6 space-y-2">
-                <li><strong>Private Equity in Sports</strong>: Major leagues like the NBA, MLB, NHL, and MLS now allow private equity firms to own minority stakes in teams, with varying ownership limits.</li>
-                <li><strong>Institutional Investment Growth</strong>: Private equity firms have poured $54.6 billion into sports investments since 2019, with valuations soaring across leagues.</li>
-                <li><strong>Sports M&A Boom</strong>: The sports industry saw a 44% increase in transactions in 2024, driven by private equity interest and growing fan engagement.</li>
+                <li>{t("sports_private_equity")}</li>
+                <li>{t("sports_institutional_growth")}</li>
+                <li>{t("sports_ma_boom")}</li>
               </ul>
               <p>
-                <strong>While there isn’t a widely recognized sports equity index like the S&P 500,</strong> investors are gaining exposure through private equity funds, media rights deals, and direct ownership stakes in teams.</p>
+                {t("sports_no_index")}
+              </p>
             </div>
           </div>
         </TabsContent>

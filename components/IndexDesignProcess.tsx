@@ -18,7 +18,7 @@ export function IndexDesignProcess() {
                 color: "#212121" 
               }}
             >
-              {t("index-design-process")}
+              {t("index_design_process")}
             </h3>
           </div>
 
@@ -47,7 +47,7 @@ export function IndexDesignProcess() {
                   color: "#1e73be" 
                 }}
               >
-                1. {t("index-design-title-1")}
+                {t("step_1_title")}
               </h4>
               <p 
                 className="text-gray-600 leading-relaxed" 
@@ -56,7 +56,7 @@ export function IndexDesignProcess() {
                   letterSpacing: "0px" 
                 }}
               >
-                {t("index-design-des-1")}
+                {t("step_1_desc")}
               </p>
             </div>
           </div>
@@ -73,7 +73,7 @@ export function IndexDesignProcess() {
                   color: "#1e73be" 
                 }}
               >
-                2. {t("index-design-title-2")}
+                {t("step_2_title")}
               </h4>
               <p 
                 className="text-gray-600 leading-relaxed" 
@@ -82,7 +82,7 @@ export function IndexDesignProcess() {
                   letterSpacing: "0px" 
                 }}
               >
-                {t("index-design-des-2")} 
+                {t("step_2_desc")} 
               </p>
             </div>
           </div>
@@ -99,7 +99,7 @@ export function IndexDesignProcess() {
                   color: "#1e73be" 
                 }}
               >
-                3. {t("index-design-title-3")}
+                {t("step_3_title")}
               </h4>
               <p 
                 className="text-gray-600 leading-relaxed" 
@@ -108,7 +108,7 @@ export function IndexDesignProcess() {
                   letterSpacing: "0px" 
                 }}
               >
-                {t("index-design-des-3")}
+                {t("step_3_desc")}
               </p>
             </div>
           </div>
@@ -125,7 +125,7 @@ export function IndexDesignProcess() {
                   color: "#1e73be" 
                 }}
               >
-                4. {t("index-design-title-4")}
+                {t("step_4_title")}
               </h4>
               <p 
                 className="text-gray-600 leading-relaxed" 
@@ -134,7 +134,7 @@ export function IndexDesignProcess() {
                   letterSpacing: "0px" 
                 }}
               >
-                {t("index-design-des-4")}
+                {t("step_4_desc")}
               </p>
             </div>
           </div>
@@ -151,7 +151,7 @@ export function IndexDesignProcess() {
                   color: "#1e73be" 
                 }}
               >
-                5. {t("index-design-title-5")}
+                {t("step_5_title")}
               </h4>
               <p 
                 className="text-gray-600 leading-relaxed" 
@@ -160,7 +160,7 @@ export function IndexDesignProcess() {
                   letterSpacing: "0px" 
                 }}
               >
-                {t("index-design-des-5")}
+                {t("step_5_desc")}
               </p>
             </div>
           </div>
@@ -177,7 +177,7 @@ export function IndexDesignProcess() {
                   color: "#1e73be" 
                 }}
               >
-                6. {t("index-design-title-6")}
+                {t("step_6_title")}
               </h4>
               <p 
                 className="text-gray-600 leading-relaxed" 
@@ -186,7 +186,7 @@ export function IndexDesignProcess() {
                   letterSpacing: "0px" 
                 }}
               >
-                {t("index-design-des-6")}
+                {t("step_6_desc")}
               </p>
             </div>
           </div>

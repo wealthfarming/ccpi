@@ -102,7 +102,7 @@ export function Footer() {
               <ul className="space-y-3">
                 <li>
                   <a 
-                    href="https://ccpi.vn/legal-term-of-service/" 
+                    href="/legal-term-of-service/" 
                     className="transition-colors duration-300"
                     style={{ color: '#1089af' }}
                     onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#0e7a96'}
@@ -131,7 +131,7 @@ export function Footer() {
               <ul className="space-y-3">
                 <li>
                   <a 
-                    href="https://ccpi.vn/warning-signs-preparing-for-a-global-recession/" 
+                    href="/warning-signs-preparing-for-a-global-recession/" 
                     className="transition-colors duration-300"
                     style={{ color: '#1089af' }}
                     onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#0e7a96'}
@@ -142,7 +142,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a 
-                    href="https://ccpi.vn/understanding-behavioral-finance-leveraging-market-psychology-for-smart-investment-decisions/" 
+                    href="/understanding-behavioral-finance-leveraging-market-psychology-for-smart-investment-decisions/" 
                     className="transition-colors duration-300"
                     style={{ color: '#1089af' }}
                     onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#0e7a96'}
@@ -153,7 +153,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a 
-                    href="https://ccpi.vn/robert-kiyosakis-urgent-warning-why-the-financial-collapse-of-the-us-is-inevitable/" 
+                    href="/robert-kiyosakis-urgent-warning-why-the-financial-collapse-of-the-us-is-inevitable/" 
                     className="transition-colors duration-300"
                     style={{ color: '#1089af' }}
                     onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#0e7a96'}
@@ -164,7 +164,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a 
-                    href="https://ccpi.vn/technical-analysis-of-spx500-leveraging-market-and-technology-for-smarter-trading/" 
+                    href="/technical-analysis-of-spx500-leveraging-market-and-technology-for-smarter-trading/" 
                     className="transition-colors duration-300"
                     style={{ color: '#1089af' }}
                     onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#0e7a96'}
@@ -175,7 +175,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a 
-                    href="https://ccpi.vn/women-and-the-journey-to-financial-freedom-taking-control-of-life-through-trading/" 
+                    href="/women-and-the-journey-to-financial-freedom-taking-control-of-life-through-trading/" 
                     className="transition-colors duration-300"
                     style={{ color: '#1089af' }}
                     onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#0e7a96'}
@@ -186,7 +186,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a 
-                    href="https://ccpi.vn/vn-may-be-upgraded-to-emerging-market-in-2022-vndirect-securities/" 
+                    href="/vn-may-be-upgraded-to-emerging-market-in-2022-vndirect-securities/" 
                     className="transition-colors duration-300"
                     style={{ color: '#1089af' }}
                     onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#0e7a96'}

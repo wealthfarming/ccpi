@@ -65,8 +65,8 @@ const BlockchainEtfTradableIndex = () => {
       <div className="bg-gray-100">
         <div className="container mx-auto px-4 py-4">
           <nav className="text-sm text-blue-600">
-            <a href="https://ccpi.vn" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
-            <a href="https://ccpi.vn/products/" className="hover:underline p-2 color-[#254099]">Products</a> &gt; <span className="text-gray-600 p-2">BLOCKCHAIN ETF TRADABLE INDEX</span>
+            <a href="/" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
+            <a href="/products/" className="hover:underline p-2 color-[#254099]">Products</a> &gt; <span className="text-gray-600 p-2">BLOCKCHAIN ETF TRADABLE INDEX</span>
           </nav>
         </div>
       </div>
@@ -147,26 +147,25 @@ const BlockchainEtfTradableIndex = () => {
               />
             </div>
             <div className="col-span-2 space-y-4 pl-6">
-              <h2 className="text-3xl font-bold">Introduction</h2>
-              <h4 className="text-2xl font-bold">Blockchain Revolution</h4>
+              <h2 className="text-3xl font-bold">{t("exchanges_intro_title")}</h2>
               <p>
-                Blockchain is revolutionizing finance and investment through enhanced security, transparency, and efficiency. Its immutable, distributed ledger makes data tampering nearly impossible, fostering trust. Decentralization strengthens security against cyberattacks, while transparency promotes accountability. Beyond security, blockchain streamlines transactions, reducing reliance on intermediaries and accelerating settlement times. Smart contracts further automate processes, boosting efficiency.
+                {t("blockchain_intro_p1")}
               </p>
               <p>
-                Blockchain’s transformative potential extends beyond finance. It can revolutionize supply chain management, healthcare, voting, and more. Growing institutional investment and corporate adoption signal its increasing importance.
+                {t("blockchain_intro_p2")}
               </p>
-              <h4 className="text-2xl font-bold">Investment Opportunities</h4>
+              <h4 className="text-2xl font-bold">{t("blockchain_investment_title")}</h4>
               <p>
-                BeQ TOP 5 Blockchain ETF index is a tradable index offer investors a diversified and accessible entry point into the burgeoning blockchain sector.
-              </p>
-              <p>
-                This index also enhances transparency and efficiency. Built on clear, rules-based methodologies, it offers investors a well-defined understanding of the index’s composition and weighting. This transparency serves as a benchmark for evaluating active blockchain investment strategies.
+                {t("blockchain_investment_p1")}
               </p>
               <p>
-                The index is calculated daily, starting from 2018-12-31. It is available in different versions (Price, and Total Return), and converted into different currency such as VND, EUR, GBP, JPY, UST, HKD, CNY, SGD, AUD, CAD, KRW to facilitate the evaluation of actual profit for foreign investor.
+                {t("blockchain_investment_p2")}
               </p>
               <p>
-                From 2019, the annual average performance is about 33.2% per year. Especially the last two recent years (2023, and 2024), the annual respective returns are 96.84% and 44.42%.
+                {t("blockchain_calculation")}
+              </p>
+              <p>
+                {t("blockchain_performance")}
               </p>
             </div>
           </div>

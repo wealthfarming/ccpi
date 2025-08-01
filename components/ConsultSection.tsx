@@ -19,10 +19,10 @@ export default function ServicesSection() {
         </div>
         <div className="container mx-auto px-4 relative z-10 pl-20">
           <h3 className="text-2xl font-light text-blue-400 mb-4">
-            {t("business-finance")}
+            {t("business_finance")}
           </h3>
           <p className="text-base text-gray-300">
-            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot.
+            {t("business_finance_desc")}
           </p>
         </div>
       </div>

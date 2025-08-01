@@ -48,7 +48,7 @@ export function HeroSlider() {
       title: "CCPI",
       description: t("hero-des-4"),
       buttonText: t("website"),
-      buttonLink: "https://ccpi.vn/",
+      buttonLink: "/",
       maxWidth: "906px"
     }
   ];

@@ -63,8 +63,8 @@ const BeqTop5ExchangesIndex = () => {
       <div className="bg-gray-100">
         <div className="container mx-auto px-4 py-4">
           <nav className="text-sm text-blue-600">
-            <a href="https://ccpi.vn" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
-            <a href="https://ccpi.vn/products/" className="hover:underline p-2 color-[#254099]">Products</a> &gt; <span className="text-gray-600 p-2">BEQ TOP 5 EXCHANGES INDEX</span>
+            <a href="/" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
+            <a href="/products/" className="hover:underline p-2 color-[#254099]">Products</a> &gt; <span className="text-gray-600 p-2">BEQ TOP 5 EXCHANGES INDEX</span>
           </nav>
         </div>
       </div>
@@ -145,54 +145,55 @@ const BeqTop5ExchangesIndex = () => {
               />
             </div>
             <div className="col-span-2 space-y-4 pl-6">
-              <h2 className="text-3xl font-bold">Introduction</h2>
+              <h2 className="text-3xl font-bold">{t("exchanges_intro_title")}</h2>
               <p>
-                Exchanges are often thought of as platforms that facilitate the buying and selling of securities, but some of the world’s largest exchanges are publicly traded companies themselves. These exchanges operate as profit-driven entities, generating revenue from trading fees, listing charges, market data sales, and clearing services.
+                {t("exchanges_intro_p1")}
               </p>
               <p>
-                Investing in an index that tracks publicly listed exchanges offers a unique investment opportunity—allowing exposure to the financial infrastructure that underpins global markets. This article explores why investing in an index of stock exchange-listed companies can be a lucrative decision, the benefits and risks involved, and the various investment strategies investors can employ.
+                {t("exchanges_intro_p2")}
               </p>
               <p>
-                On May 5, 2025, BeQ Holdings Indexes designed, calculated, and officially launched the BeQ Exchanges Index Series.
+                {t("exchanges_intro_p3")}
               </p>
               <p>
-                The BeQ Top 5 Exchanges Index has delivered outstanding absolute returns, far surpassing most major international indexes. In 2023, the index surged by 27.50%, followed by an impressive 41.33% in 2024. As of the first four months of 2025, it has already achieved a strong gain of 28.47%.
+                {t("exchanges_intro_p4")}
               </p>
-              <h2 className="text-3xl font-bold">Investment Strategies for Stock Exchange Indexes</h2>
+              <h2 className="text-3xl font-bold">{t("exchanges_investment_strategies")}</h2>
               <p>
-                Investors have various strategies for gaining exposure to publicly traded exchanges:
+                {t("exchanges_strategies_intro")}
               </p>
-              <p className="font-bold">Buy-and-Hold Strategy</p>
+              <p className="font-bold">{t("exchanges_buy_hold_title")}</p>
               <p>
-                Investors can buy individual stocks of exchanges like Nasdaq, HKEX, or Deutsche Börse and hold them long-term, benefiting from dividends, steady growth, and capital appreciation.
+                {t("exchanges_buy_hold_desc")}
               </p>
-              <p className="font-bold">Exchange-Traded Funds (ETFs)</p>
+              <p className="font-bold">{t("exchanges_etf_title")}</p>
               <p>
-                Several ETFs track indices of publicly listed stock exchanges, offering diversification without requiring direct stock selection. Examples include funds focused on financial market infrastructure.
+                {t("exchanges_etf_desc")}
               </p>
-              <p className="font-bold">Sector Rotation Approach</p>
+              <p className="font-bold">{t("exchanges_sector_rotation_title")}</p>
               <p>
-                Investors can adjust portfolio allocations based on market cycles—reducing exposure to exchanges during economic downturns and increasing investment during bull markets.
+                {t("exchanges_sector_rotation_desc")}
               </p>
-              <p className="font-bold">Key Stock Exchange Indices</p>
+              <p className="font-bold">{t("exchanges_key_indices_title")}</p>
               <p>
-                For investors looking at broader exposure, here are some indices that track exchange operators:
+                {t("exchanges_key_indices_desc")}
               </p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>FTSE Mondo Visione Exchanges Index – Tracks publicly traded stock exchanges worldwide.</li>
-                <li>S&P Global Exchange Index – Covers leading exchange operators like Nasdaq, ICE, and HKEX.</li>
-                <li>Deutsche Börse Exchange Index – Focuses on European exchange operators.</li>
+                <li>{t("exchanges_ftse_desc")}</li>
+                <li>{t("exchanges_sp_desc")}</li>
+                <li>{t("exchanges_deutsche_desc")}</li>
               </ul>
               <p>
-                Investing in an index that tracks publicly traded stock exchanges offers a unique and stable long-term opportunity. These businesses benefit from consistent transaction revenues, market expansion, and diversified income streams. While regulatory risks and competition should be considered, stock exchange-listed companies remain fundamental to the global financial system, making them an attractive investment for those seeking stability and growth.
+                {t("exchanges_conclusion_p1")}
               </p>
               <p>
-                Investors interested in stock exchange indices can explore ETF options, direct stock purchases, or long-term holding strategies to maximize potential returns. The key is to evaluate the financial health, dividend policies, and expansion strategies of stock exchanges before making an investment decision.
+                {t("exchanges_conclusion_p2")}
               </p>
+              <p className="font-bold">{t("exchanges_volatility_benefits")}</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Higher Trading Volumes: Volatility often leads to increased trading activity, boosting revenue for the exchange.</li>
-                <li>Resilience Through Diversified Revenue Streams: Exchanges earn from derivatives, ETFs, and clearing services, reducing dependence on stock price movements.</li>
-                <li>Investor Confidence: A well-managed exchange can maintain stability, attracting investors even in uncertain times.</li>
+                <li>{t("exchanges_higher_volume")}</li>
+                <li>{t("exchanges_resilience")}</li>
+                <li>{t("exchanges_investor_confidence")}</li>
               </ul>
             </div>
           </div>

@@ -10,8 +10,8 @@ const AboutUsSection: React.FC = () => {
       <div className="bg-gray-100">
         <div className="container mx-auto px-4 py-4">
           <nav className="text-sm text-blue-600">
-            <a href="https://ccpi.vn" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
-            <a href="https://ccpi.vn/category/uncategorized/" className="hover:underline p-2 color-[#254099]"> Uncategorized</a> &gt; <span className="text-gray-600 p-2">About Us</span>
+            <a href="/" className="hover:underline p-2 color-[#254099]">CCPI</a> &gt; 
+            <a href="/category/uncategorized/" className="hover:underline p-2 color-[#254099]"> Uncategorized</a> &gt; <span className="text-gray-600 p-2">About Us</span>
           </nav>
         </div>
       </div>
